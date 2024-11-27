@@ -12,32 +12,26 @@ export const AboutStyled = styled.div`
     height: auto;
     padding: 50px 20px;
     gap: 30px;
+    position: relative;
   }
 
-  .titleBox{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-
-    .asideList{
-      visibility: hidden;
-      width: 35px;
-      height: 35px;
-      background-color: #040b14;
-      border-radius: 50%;
+  .asideList{
+    display: none;
+    width: 35px;
+    height: 35px;
+    background-color: #040b14;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    
+    @media(max-width: 900px) {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      cursor: pointer;
-
-      @media(max-width: 900px) {
-        visibility: visible;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        z-index: 999;
-      }
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 9999;
     }
   }
 

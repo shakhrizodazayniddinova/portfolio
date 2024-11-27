@@ -6,6 +6,13 @@ export const AsideStyled = styled.div`
     background-color: #040b14;
     padding: 0px 30px;
 
+    overflow-y: scroll;
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
     @media(max-width: 900px) {
         display: ${props => (props.isVisible ? 'block' : 'none')};
         position: absolute;

@@ -15,10 +15,8 @@ const gridData = [
 export default function About({toggleVisible}) {
   return (
     <AboutStyled>
-      <Box className='titleBox'>
-        <Title title={'About'} description={"I, Shakhrizoda, am a young developer improving my knowledge in the field of frontend technologies. I am interested in web design and creating interactive features. I am ready to constantly learn and apply new technologies. "}/>
-        <i class="bi bi-list asideList" onClick={toggleVisible}></i>
-      </Box>
+      <Title title={'About'} description={"I, Shakhrizoda, am a young developer improving my knowledge in the field of frontend technologies. I am interested in web design and creating interactive features. I am ready to constantly learn and apply new technologies. "}/>
+      <i class="bi bi-list asideList" onClick={toggleVisible}></i>
 
       <Box className='aboutData'>
         <Typography variant='h5' className='jobName'>Frontend Developer</Typography>
