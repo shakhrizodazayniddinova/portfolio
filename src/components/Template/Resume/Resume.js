@@ -17,7 +17,7 @@ export default function Resume() {
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Development</Typography>
                 <Typography variant='caption' fontWeight={'bold'}>2023-2024</Typography>
-                <Typography variant='body1'>PDP Academy - personal development process</Typography>
+                <Typography variant='body1'>PDP Academy - Personal Development Process</Typography>
               </Box>
             </Grid>
 

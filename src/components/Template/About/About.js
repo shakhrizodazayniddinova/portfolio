@@ -3,14 +3,18 @@ import { Box, Grid, Typography } from '@mui/material';
 import Title from '../Title/Title';
 import { AboutStyled } from './AboutStyled';
 
+const birthYear = 2007;
+const currentYear = new Date().getFullYear();
+const age = currentYear - birthYear;
+
 const gridData = [
   {label: 'Birthday:', item: '1 April 2007'},
-  {label: 'Age:', item: '17'},
+  {label: 'Age:', item: age},
   {label: 'City:', item: 'Tashkent, Uzbekistan'},
-  {label: 'Website:', item: 'https://shakhrizodazayniddinova.netlify.app/'},
+  {label: 'Website:', item: 'https://shakhrizodazayniddinova.netlify.app'},
   {label: 'Degree:', item: 'Junior'},
   {label: 'Email:', item: 'shakhrizodazayniddinova7@gmail.com'},
-]
+];
 
 export default function About({toggleVisible}) {
   return (

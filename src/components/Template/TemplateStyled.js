@@ -4,6 +4,7 @@ export const TemplateStyled = styled.div`
     width: 100%;
     height: auto;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 
     main{
         width: calc(100% - 300px);
