@@ -7,7 +7,7 @@ const gridData = [
   {label: 'Birthday:', item: '1 April 2007'},
   {label: 'Age:', item: '17'},
   {label: 'City:', item: 'Tashkent, Uzbekistan'},
-  {label: 'Website:', item: 'www.example.com'},
+  {label: 'Website:', item: 'https://shakhrizodazayniddinova.netlify.app/'},
   {label: 'Degree:', item: 'Junior'},
   {label: 'Email:', item: 'shakhrizodazayniddinova7@gmail.com'},
 ]
