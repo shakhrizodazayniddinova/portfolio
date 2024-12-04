@@ -22,6 +22,7 @@ import skymovie from './Assets/skymovie.png';
 import booknest from './Assets/booknest.png';
 import express from './Assets/express.png';
 import resipe from './Assets/resipe.png';
+import youtube from './Assets/youtube.png';
 
 const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
@@ -38,13 +39,14 @@ const designCardData = [
 
 const dynamicCardData = [
     {img: calculator, workName: 'Calculator', aboutWork: 'React | SCSS | Not Responsive', link: 'https://calculator-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calculator', sourcecode: 'Source Code'},
+    {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | Material UI | Json API | Redux | Router | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app//', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: todo, workName: 'ToDo App', aboutWork: 'React | Styled components | Redux Toolkit | React Reveal Animation | Responsive', link: 'https://todoapp-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/todoapp', sourcecode: 'Source Code'},
     {img: formdemo, workName: 'Form Demo', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://formdemo-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/formdemo', sourcecode: 'Source Code'},
     {img: charts, workName: 'Charts', aboutWork: 'React | React ChartJS | Responsive', link: 'https://charts-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/charts', sourcecode: 'Source Code'},
-    {img: skymovie, workName: 'Sky and Movie', aboutWork: 'React | Styled components | API | Responsive', link: 'https://skyandscreen-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/weather', sourcecode: 'Source Code'},
-    {img: booknest, workName: 'Book Nest', aboutWork: 'React | Context API | Router DOM | Redux | Styled components | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
+    {img: skymovie, workName: 'Sky and Movie', aboutWork: 'React | Styled components | API | Router | Responsive', link: 'https://skyandscreen-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/weather', sourcecode: 'Source Code'},
+    {img: booknest, workName: 'Book Nest', aboutWork: 'React | Context API | Router DOM | Redux | Router | Styled components | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
     {img: resipe, workName: 'Food Resipes', aboutWork: 'React | MUI | Styled components | API | Responsive', link: 'https://foodresipe.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/foodresipe', sourcecode: 'Source Code'},
-    {img: express, workName: 'Express24', aboutWork: 'React | Router DOM | Redux | Styled components | Not Responsive', link: 'https://express-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/express24', sourcecode: 'Source Code'},
+    {img: express, workName: 'Express24', aboutWork: 'React | Router DOM | Redux | Router | Styled components | Not Responsive', link: 'https://express-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/express24', sourcecode: 'Source Code'},
 ];
 
 export default function Works() {
