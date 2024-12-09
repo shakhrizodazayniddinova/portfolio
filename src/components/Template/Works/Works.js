@@ -16,6 +16,7 @@ import albumlayout from './Assets/albumlayout.png';
 import calculator from './Assets/calculator.png';
 import todo from './Assets/todo.png';
 import formdemo from './Assets/formdemo.png';
+import organicfood from './Assets/organicfood.png';
 import zone from './Assets/zone.png';
 import charts from './Assets/charts.png';
 import skymovie from './Assets/skymovie.png';
@@ -42,6 +43,7 @@ const dynamicCardData = [
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | Material UI | Json API | Redux | Router | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app//', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: todo, workName: 'ToDo App', aboutWork: 'React | Styled components | Redux Toolkit | React Reveal Animation | Responsive', link: 'https://todoapp-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/todoapp', sourcecode: 'Source Code'},
     {img: formdemo, workName: 'Form Demo', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://formdemo-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/formdemo', sourcecode: 'Source Code'},
+    {img: organicfood, workName: 'Organic Food', aboutWork: 'Webpack | SCSS | Not Responsive', link: 'https://organicfood-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/organicFood', sourcecode: 'Source Code'},
     {img: charts, workName: 'Charts', aboutWork: 'React | React ChartJS | Responsive', link: 'https://charts-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/charts', sourcecode: 'Source Code'},
     {img: skymovie, workName: 'Sky and Movie', aboutWork: 'React | Styled components | API | Router | Responsive', link: 'https://skyandscreen-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/weather', sourcecode: 'Source Code'},
     {img: booknest, workName: 'Book Nest', aboutWork: 'React | Context API | Router DOM | Redux | Router | Styled components | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
