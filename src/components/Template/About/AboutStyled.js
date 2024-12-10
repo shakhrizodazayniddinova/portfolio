@@ -7,12 +7,12 @@ export const AboutStyled = styled.div`
   width: 100%;
   height: 100vh;
   padding: 100px 20px;
+  position: relative;
 
   @media(max-width: 900px) {
     height: auto;
     padding: 50px 20px;
     gap: 30px;
-    position: relative;
   }
 
   .asideList{
@@ -29,8 +29,8 @@ export const AboutStyled = styled.div`
     @media(max-width: 900px) {
       display: flex;
       position: fixed;
-      top: 20px;
-      right: 20px;
+      top: 15px;
+      right: 15px;
       z-index: 9999;
     }
   }

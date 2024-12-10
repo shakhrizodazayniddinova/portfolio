@@ -27,6 +27,7 @@ export default function Template() {
   const scrollToSection = (sectionId) => {
     if (sectionsRef[sectionId]?.current) {
       sectionsRef[sectionId].current.scrollIntoView({ behavior: 'smooth' });
+      setIsVisible(false);
     }
   };
 

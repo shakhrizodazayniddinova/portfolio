@@ -6,8 +6,8 @@ import { ContactStyled } from './ContactStyled';
 
 const contactData = [
     {icon: 'bi-geo-alt', label: 'Address', item: 'Tashkent, Uzbekistan'},
-    {icon: 'bi-telephone', label: 'Call Us', item: '(+998)99-067-90-40'},
-    {icon: 'bi-envelope', label: 'Email', item: 'shakhrizodazayniddinova7@gmail.com', class: 'email'},
+    {icon: 'bi-telephone', label: 'Call Us', item: '(+998)99-067-90-40', type: `+998990679040`, typeTo: 'tel:'},
+    {icon: 'bi-envelope', label: 'Email', item: 'shakhrizodazayniddinova7@gmail.com', type: `shakhrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
 ];
 
 export default function Contact() {
@@ -21,9 +21,10 @@ export default function Contact() {
                 {contactData.map((items) => (
                     <Grid item xs={12} sm={6} md={4}>
                         <Box className='contactInformation'>
-                            <Box className='contactInformIcon'>
+                            <button className='contactInformIcon' onClick={() => items.type && (window.location.href = `${items.typeTo}${items.type}`)}>
                                 <i class={`bi ${items.icon}`}></i>
-                            </Box>
+                            </button>
+
                             <Box>
                                 <Typography variant='h6' fontWeight={'bold'}>{items.label}</Typography>
                                 <Typography variant='body2' className={items.class}>{items.item}</Typography>

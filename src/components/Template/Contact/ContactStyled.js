@@ -29,6 +29,7 @@ export const ContactStyled = styled.div`
                 height: 44px;
                 background: color-mix(in srgb, #149ddd, transparent 80%);
                 border-radius: 100%;
+                border: none;
                 transition: 0.3s;
                 
                 &:hover{
@@ -44,6 +45,12 @@ export const ContactStyled = styled.div`
                 i{
                     font-size: 20px;
                     color: #149ddd;
+                }
+            }
+
+            .email{
+                @media(max-width: 362px){
+                    font-size: 13px;
                 }
             }
         }
