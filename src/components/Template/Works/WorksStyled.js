@@ -48,13 +48,6 @@ export const WorksStyled = styled.div`
                 max-width: 382px;
                 max-height: 194px;
                 overflow: hidden;
-
-                &:hover{
-                    .sourceCode{
-                        transition: 0.3s;
-                        display: block;
-                    }
-                }
                 
                 img{
                     max-width: 382px;
@@ -71,7 +64,7 @@ export const WorksStyled = styled.div`
                 }
 
                 .sourceCode{
-                    display: none;
+                    display: block;
                     position: absolute;
                     z-index: 100;
                     top: 2px;

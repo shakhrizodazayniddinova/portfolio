@@ -88,7 +88,7 @@ export default function Works() {
                             <a href={items.link}>
                                 <img src={items.img} />
                             </a>
-                            <Typography variant='caption' className='sourceCodeText'><a href={items.githubLink} className='sourceCode'>{items.sourcecode}</a></Typography>
+                            <Typography variant='caption'><a href={items.githubLink} className='sourceCode'>{items.sourcecode}</a></Typography>
                         </Box>
 
                         <Box className='workCardSec'>
