@@ -50,7 +50,7 @@ const dynamicCardData = [
     {img: booknest, workName: 'Book Nest', aboutWork: 'React | Context API | Router DOM | Redux | Router | Styled components | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
     {img: resipe, workName: 'Food Resipes', aboutWork: 'React | MUI | Styled components | API | Responsive', link: 'https://foodresipe.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/foodresipe', sourcecode: 'Source Code'},
     {img: express, workName: 'Express24', aboutWork: 'React | Router DOM | Redux | Router | Styled components | Not Responsive', link: 'https://express-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/express24', sourcecode: 'Source Code'},
-    {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | Jsx | MomentJs | Classnames | React Animation Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
+    {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | Jsx | SCSS | MomentJs | Classnames | React Animation Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
 ];
 
 export default function Works() {
