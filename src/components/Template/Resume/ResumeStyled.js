@@ -5,8 +5,8 @@ export const ResumeStyled = styled.div`
   flex-direction: column;
   gap: 50px;
   width: 100%;
-  height: 100vh;
-  padding: 50px 20px;
+  height: auto;
+  padding: 20px 20px;
   margin-top: 50px;
 
   @media(max-width: 900px) {
@@ -49,7 +49,7 @@ export const ResumeStyled = styled.div`
         }
       }
       .gridItemBoxItems2{
-        padding-bottom: 40px;
+        padding-bottom: 70px;
       }
     }
 

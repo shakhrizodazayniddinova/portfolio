@@ -11,10 +11,9 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 export default function Template() {
   const [isVisible, setIsVisible] = useState(false);
+  const [activeSection, setActiveSection] = useState('about');
 
   const toggleVisible = () => setIsVisible(!isVisible);
-
-  const [activeSection, setActiveSection] = useState('about');
   
   const sectionsRef = {
     about: useRef(null),

@@ -13,6 +13,7 @@ const skillsDate = [
     {name: 'Material UI', value: 70},
     {name: 'JavaScript', value: 80},
     {name: 'React', value: 70},
+    {name: 'NextJs', value: 30},
 ]
 
 export default function Skills() {

@@ -5,7 +5,7 @@ export const SkillsStyled = styled.div`
     flex-direction: column;
     gap: 30px;
     width: 100%;
-    height: 462px;
+    height: auto;
     background-color: #f4fafd;
     padding: 50px 20px;
 

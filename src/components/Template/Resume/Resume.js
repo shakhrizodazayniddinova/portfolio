@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../Title/Title';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { ResumeStyled } from './ResumeStyled';
+import { resumeDatas } from './ResumeDatas';
 
 export default function Resume() {
   return (
@@ -56,14 +57,9 @@ export default function Resume() {
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Skills</Typography>
 
                 <List>
-                  <ListItem><Typography variant='button'>HTML</Typography></ListItem>
-                  <ListItem><Typography variant='button'>CSS</Typography></ListItem>
-                  <ListItem><Typography variant='button'>SCSS</Typography></ListItem>
-                  <ListItem><Typography variant='button'>Tailwind</Typography></ListItem>
-                  <ListItem><Typography variant='button'>Bootstrap</Typography></ListItem>
-                  <ListItem><Typography variant='button'>Material UI</Typography></ListItem>
-                  <ListItem><Typography variant='button'>JavaScript</Typography></ListItem>
-                  <ListItem><Typography variant='button'>React</Typography></ListItem>
+                  {resumeDatas.map((item, index) => (
+                    <ListItem key={index}><Typography variant='button'>{item}</Typography></ListItem>
+                  ))}
                 </List>
               </Box>
 

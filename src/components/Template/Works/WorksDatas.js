@@ -19,6 +19,7 @@ import express from './Assets/express.png';
 import resipe from './Assets/resipe.png';
 import youtube from './Assets/youtube.png';
 import calendar from './Assets/calendar.png';
+import teamify from './Assets/teamify.png';
 
 export const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
@@ -31,6 +32,8 @@ export const designCardData = [
     {img: geeks, workName: 'Geeks', aboutWork: 'React | Styled components | Not Responsive', link: 'https://geeks-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/geeks', sourcecode: 'Source Code'},
     {img: albumlayout, workName: 'Album layout', aboutWork: 'React | MUI | Responsive', link: 'https://album-layout-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/album-layout', sourcecode: 'Source Code'},
     {img: zone, workName: 'Zone Landing', aboutWork: 'React | MUI | Styled components | Not Responsive', link: 'https://zone-landing-clone.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/zone-landing-clone', sourcecode: 'Source Code'},
+    {img: organicfood, workName: 'Organic Food', aboutWork: 'Webpack | SCSS | Not Responsive', link: 'https://organicfood-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/organicFood', sourcecode: 'Source Code'},
+    {img: teamify, workName: 'Teamify', aboutWork: 'NextJs | MUI | Not Responsive', link: 'https://teamify-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/teamify', sourcecode: 'Source Code'},
 ];
 
 export const dynamicCardData = [
@@ -43,6 +46,5 @@ export const dynamicCardData = [
     {img: formdemo, workName: 'Form Demo', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://formdemo-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/formdemo', sourcecode: 'Source Code'},
     {img: charts, workName: 'Charts', aboutWork: 'React | ChartJS | Responsive', link: 'https://charts-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/charts', sourcecode: 'Source Code'},
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app//', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
-    {img: organicfood, workName: 'Organic Food', aboutWork: 'Webpack | Jsx | SCSS | Not Responsive', link: 'https://organicfood-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/organicFood', sourcecode: 'Source Code'},
-    {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | Jsx | SCSS | MomentJs | Classnames | React Animation Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
+    {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Animation Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
 ];

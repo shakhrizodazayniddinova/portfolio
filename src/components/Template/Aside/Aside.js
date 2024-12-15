@@ -14,9 +14,10 @@ const navData = [
     {icon: <i className="bi bi-file-earmark-text"></i>, label: 'Resume', secName: 'resume'},
     {icon: <i className="bi bi-images"></i>, label: 'Portfolio', secName: 'works'},
     {icon: <i className="bi bi-envelope"></i>, label: 'Contact', secName: 'contact'},
-]
+];
 
 export default function Aside({scrollToSection, isVisible}) {
+
   return (
     <AsideStyled isVisible={isVisible}>
         <Slide direction='left'>
@@ -53,7 +54,7 @@ export default function Aside({scrollToSection, isVisible}) {
                 <Box className='asideNavBox'>
                     <List className='navList'>
                         {navData.map((item) => (
-                            <ListItem className='asideNav' onClick={() => scrollToSection(item.secName)}>
+                            <ListItem className={`asideNav`} onClick={() => scrollToSection(item.secName)}>
                                 {item.icon}
                                 <Typography variant='body2' className='navText'>{item.label}</Typography>
                             </ListItem>

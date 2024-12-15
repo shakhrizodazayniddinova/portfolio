@@ -63,8 +63,8 @@ export default function Works() {
     
         <Box className='worksBox'>
             <nav className='nav'>
-                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>Static</Typography>
-                <Typography variant='button' onClick={() => setActiveSection("dynamic")} className={`workCategory ${activeSection === 'dynamic' ? 'active' : ''}`}>Dynamic</Typography>
+                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>static</Typography>
+                <Typography variant='button' onClick={() => setActiveSection("dynamic")} className={`workCategory ${activeSection === 'dynamic' ? 'active' : ''}`}>interactive</Typography>
             </nav>
 
             <Grid container spacing={'10px'} rowGap={'30px'}>
