@@ -25,15 +25,16 @@ import school from './Assets/school.png';
 import pomodoro from './Assets/pomodoro.png';
 import colorsinput from './Assets/colorsinput.png';
 import magicsquares from './Assets/magicsquares.png';
+import blogzine from './Assets/blogzine.png';
+import kevinbennet from './Assets/kevinbennet.png';
 
 export const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
-    {img: hilltop, workName: 'Hill Top', aboutWork: 'HTML | SCSS | Not responsive', link: 'https://hilltop-shakhrizoda.netlify.app', sourceCodeClass: 'sourceCodeNone'},
-    {img: foodhut, workName: 'Food Hut', aboutWork: 'HTML | SCSS | JavaScript | Responsive', link: 'https://food-hut-by-shakhrizoda.netlify.app', sourceCodeClass: 'sourceCodeNone'},
-    {img: shopbootstrap, workName: 'Start Bootstrap', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://homepage-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/shopHomePage', sourcecode: 'Source Code'},
-    {img: welcomebootstrap, workName: 'Blog Home', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://welcome-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/welcomeMyApp', sourcecode: 'Source Code'},
+    {img: hilltop, workName: 'Hill Top', aboutWork: 'HTML | SCSS | Not responsive', link: 'https://hilltop-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: olegmarkov, workName: 'Oleg Markov', aboutWork: 'React | CSS | Not Responsive', link: 'https://olegmarkov-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/oleg', sourcecode: 'Source Code'},
     {img: kaylagriffith, workName: 'Kayla Griffith', aboutWork: 'React | CSS | Not Responsive', link: 'https://kaylagriffith-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/griffith', sourcecode: 'Source Code'},
+    {img: shopbootstrap, workName: 'Start Bootstrap', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://homepage-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/shopHomePage', sourcecode: 'Source Code'},
+    {img: welcomebootstrap, workName: 'Blog Home', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://welcome-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/welcomeMyApp', sourcecode: 'Source Code'},
     {img: geeks, workName: 'Geeks', aboutWork: 'React | Styled components | Not Responsive', link: 'https://geeks-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/geeks', sourcecode: 'Source Code'},
     {img: albumlayout, workName: 'Album layout', aboutWork: 'React | MUI | Responsive', link: 'https://album-layout-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/album-layout', sourcecode: 'Source Code'},
     {img: zone, workName: 'Zone Landing', aboutWork: 'React | MUI | Styled components | Not Responsive', link: 'https://zone-landing-clone.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/zone-landing-clone', sourcecode: 'Source Code'},
@@ -42,11 +43,14 @@ export const designCardData = [
 ];
 
 export const dynamicCardData = [
+    {img: foodhut, workName: 'Food Hut', aboutWork: 'HTML | SCSS | JavaScript | Responsive', link: 'https://food-hut-by-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: school, workName: 'Online School', aboutWork: 'HTML | SCSS | Tailwind | JavaScript | Not Responsive', link: 'https://school-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/school', sourcecode: 'Source Code'},
     {img: pomodoro, workName: 'Pomodoro', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://pomodoro-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/pomodoro', sourcecode: 'Source Code'},
     {img: colorsinput, workName: 'Colors & Images', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://colorsinput-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/colorsinput', sourcecode: 'Source Code'},
     {img: magicsquares, workName: 'Magic Squares', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://magicsquares-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/squares', sourcecode: 'Source Code'},
+    {img: kevinbennet, workName: 'Kevin Bennet', aboutWork: 'React | CSS | Context API | Not Responsive', link: 'https://kevinbennet-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/kevinbennet', sourcecode: 'Source Code'},
     {img: calculator, workName: 'Calculator', aboutWork: 'React | SCSS | Not Responsive', link: 'https://calculator-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calculator', sourcecode: 'Source Code'},
+    {img: blogzine, workName: 'Blogzine', aboutWork: 'React | SCSS | React Bootstrap | Not Responsive', link: 'https://blogzine-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/blogzine', sourcecode: 'Source Code'},
     {img: todo, workName: 'ToDo App', aboutWork: 'React | Styled components | Redux Toolkit | React Animation Reveal | Responsive', link: 'https://todoapp-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/todoapp', sourcecode: 'Source Code'},
     {img: skymovie, workName: 'Sky and Movie', aboutWork: 'React | Styled components | API | Router | Responsive', link: 'https://skyandscreen-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/weather', sourcecode: 'Source Code'},
     {img: booknest, workName: 'Book Nest', aboutWork: 'React | Styled components | Context API | Router | Redux | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},

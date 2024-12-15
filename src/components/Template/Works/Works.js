@@ -6,20 +6,20 @@ import { WorksStyled } from './WorksStyled';
 import { designCardData, dynamicCardData } from './WorksDatas';
 
 export default function Works() {
-    const [activeSection, setActiveSection] = useState("static");
+    const [activeSection, setActiveSection] = useState("dynamic");
 
     const renderContent = () => {
       switch (activeSection) {
-        case "static":
+        case "dynamic":
           return <>
-            {designCardData.map((items) => (
-                <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpLeft`}>
+            {dynamicCardData.map((items) => (
+                <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpRight`}>
                     <Box className='workCard'>
                         <Box className='workCardImgBox'>
                             <a href={items.link}>
                                 <img src={items.img} />
                             </a>
-                            <Typography variant='caption' className='sourceCodeText'><a href={items.githubLink} className={`${items.sourceCodeClass ? items.sourceCodeClass : 'sourceCode'}`}>{items.sourcecode}</a></Typography>
+                            <Typography variant='caption'><a href={items.githubLink} className='sourceCode'>{items.sourcecode}</a></Typography>
                         </Box>
 
                         <Box className='workCardSec'>
@@ -31,16 +31,16 @@ export default function Works() {
             ))}
           </>;
 
-        case "dynamic":
+        case "static":
           return <>
-            {dynamicCardData.map((items) => (
-                <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpRight`}>
+            {designCardData.map((items) => (
+                <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpLeft`}>
                     <Box className='workCard'>
                         <Box className='workCardImgBox'>
                             <a href={items.link}>
                                 <img src={items.img} />
                             </a>
-                            <Typography variant='caption'><a href={items.githubLink} className='sourceCode'>{items.sourcecode}</a></Typography>
+                            <Typography variant='caption' className='sourceCodeText'><a href={items.githubLink} className={`${items.sourceCodeClass ? items.sourceCodeClass : 'sourceCode'}`}>{items.sourcecode}</a></Typography>
                         </Box>
 
                         <Box className='workCardSec'>
@@ -63,8 +63,8 @@ export default function Works() {
     
         <Box className='worksBox'>
             <nav className='nav'>
-                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>static <Badge sx={{mb: 3, px: 0.5, fontSize: '12px', borderRadius: '50%', bgcolor: '#149ddd', color: 'white'}}>{designCardData.length}</Badge></Typography>
                 <Typography variant='button' onClick={() => setActiveSection("dynamic")} className={`workCategory ${activeSection === 'dynamic' ? 'active' : ''}`}>interactive <Badge sx={{mb: 3, px: 0.5, fontSize: '12px', borderRadius: '50%', bgcolor: '#149ddd', color: 'white'}}>{dynamicCardData.length}</Badge></Typography>
+                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>static <Badge sx={{mb: 3, px: 0.5, fontSize: '12px', borderRadius: '50%', bgcolor: '#149ddd', color: 'white'}}>{designCardData.length}</Badge></Typography>
             </nav>
 
             <Grid container spacing={'10px'} rowGap={'30px'}>
