@@ -85,7 +85,6 @@ export const WorksStyled = styled.div`
                 }
             }
 
-
             .workCardSec{
                 display: flex;
                 flex-direction: column;
