@@ -29,7 +29,6 @@ import blogzine from './Assets/blogzine.png';
 import kevinbennet from './Assets/kevinbennet.png';
 
 export const designCardData = [
-    {img: foodhut, workName: 'Food Hut', aboutWork: 'HTML | SCSS | JavaScript | Responsive', link: 'https://food-hut-by-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: hilltop, workName: 'Hill Top', aboutWork: 'HTML | SCSS | Not responsive', link: 'https://hilltop-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: olegmarkov, workName: 'Oleg Markov', aboutWork: 'React | CSS | Not Responsive', link: 'https://olegmarkov-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/oleg', sourcecode: 'Source Code'},
@@ -44,6 +43,7 @@ export const designCardData = [
 ];
 
 export const dynamicCardData = [
+    {img: foodhut, workName: 'Food Hut', aboutWork: 'HTML | SCSS | JavaScript | Responsive', link: 'https://food-hut-by-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: school, workName: 'Online School', aboutWork: 'HTML | SCSS | Tailwind | JavaScript | Not Responsive', link: 'https://school-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/school', sourcecode: 'Source Code'},
     {img: pomodoro, workName: 'Pomodoro', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://pomodoro-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/pomodoro', sourcecode: 'Source Code'},
     {img: colorsinput, workName: 'Colors & Images', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://colorsinput-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/colorsinput', sourcecode: 'Source Code'},
