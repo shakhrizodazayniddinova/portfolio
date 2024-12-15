@@ -21,6 +21,10 @@ import youtube from './Assets/youtube.png';
 import calendar from './Assets/calendar.png';
 import byteconvert from './Assets/byteconvert.png';
 import teamify from './Assets/teamify.png';
+import school from './Assets/school.png';
+import pomodoro from './Assets/pomodoro.png';
+import colorsinput from './Assets/colorsinput.png';
+import magicsquares from './Assets/magicsquares.png';
 
 export const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
@@ -38,6 +42,10 @@ export const designCardData = [
 ];
 
 export const dynamicCardData = [
+    {img: school, workName: 'Online School', aboutWork: 'HTML | SCSS | Tailwind | JavaScript | Not Responsive', link: 'https://school-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/school', sourcecode: 'Source Code'},
+    {img: pomodoro, workName: 'Pomodoro', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://pomodoro-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/pomodoro', sourcecode: 'Source Code'},
+    {img: colorsinput, workName: 'Colors & Images', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://colorsinput-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/colorsinput', sourcecode: 'Source Code'},
+    {img: magicsquares, workName: 'Magic Squares', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://magicsquares-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/squares', sourcecode: 'Source Code'},
     {img: calculator, workName: 'Calculator', aboutWork: 'React | SCSS | Not Responsive', link: 'https://calculator-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calculator', sourcecode: 'Source Code'},
     {img: todo, workName: 'ToDo App', aboutWork: 'React | Styled components | Redux Toolkit | React Animation Reveal | Responsive', link: 'https://todoapp-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/todoapp', sourcecode: 'Source Code'},
     {img: skymovie, workName: 'Sky and Movie', aboutWork: 'React | Styled components | API | Router | Responsive', link: 'https://skyandscreen-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/weather', sourcecode: 'Source Code'},

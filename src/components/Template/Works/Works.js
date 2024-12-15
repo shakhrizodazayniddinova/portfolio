@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'animate.css';
-import { Box, Grid, Typography } from '@mui/material';
+import { Badge, Box, Grid, Typography } from '@mui/material';
 import Title from '../Title/Title';
 import { WorksStyled } from './WorksStyled';
 import { designCardData, dynamicCardData } from './WorksDatas';
@@ -63,8 +63,8 @@ export default function Works() {
     
         <Box className='worksBox'>
             <nav className='nav'>
-                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>static</Typography>
-                <Typography variant='button' onClick={() => setActiveSection("dynamic")} className={`workCategory ${activeSection === 'dynamic' ? 'active' : ''}`}>interactive</Typography>
+                <Typography variant='button' onClick={() => setActiveSection("static")} className={`workCategory ${activeSection === 'static' ? 'active' : ''}`}>static <Badge sx={{mb: 3, px: 0.5, fontSize: '12px', borderRadius: '50%', bgcolor: '#149ddd', color: 'white'}}>{designCardData.length}</Badge></Typography>
+                <Typography variant='button' onClick={() => setActiveSection("dynamic")} className={`workCategory ${activeSection === 'dynamic' ? 'active' : ''}`}>interactive <Badge sx={{mb: 3, px: 0.5, fontSize: '12px', borderRadius: '50%', bgcolor: '#149ddd', color: 'white'}}>{dynamicCardData.length}</Badge></Typography>
             </nav>
 
             <Grid container spacing={'10px'} rowGap={'30px'}>
