@@ -19,6 +19,7 @@ import express from './Assets/express.png';
 import resipe from './Assets/resipe.png';
 import youtube from './Assets/youtube.png';
 import calendar from './Assets/calendar.png';
+import byteconvert from './Assets/byteconvert.png';
 import teamify from './Assets/teamify.png';
 
 export const designCardData = [
@@ -45,6 +46,7 @@ export const dynamicCardData = [
     {img: resipe, workName: 'Food Resipes', aboutWork: 'React | MUI | Styled components | API | Responsive', link: 'https://foodresipe.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/foodresipe', sourcecode: 'Source Code'},
     {img: formdemo, workName: 'Form Demo', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://formdemo-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/formdemo', sourcecode: 'Source Code'},
     {img: charts, workName: 'Charts', aboutWork: 'React | ChartJS | Responsive', link: 'https://charts-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/charts', sourcecode: 'Source Code'},
-    {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app//', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
+    {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Animation Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
+    {img: byteconvert, workName: 'Byte Converter', aboutWork: 'Webpack | SCSS | NumeralJs | Not Responsive', link: 'https://byteconverter-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/ByteConverter', sourcecode: 'Source Code'},
 ];
