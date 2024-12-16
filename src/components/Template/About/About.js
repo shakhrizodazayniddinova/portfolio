@@ -1,22 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Box, Grid, Typography } from '@mui/material';
 import Title from '../Title/Title';
 import { AboutStyled } from './AboutStyled';
 
-const birthYear = 2007;
-const currentYear = new Date().getFullYear();
-const age = currentYear - birthYear;
-
-const gridData = [
-  {label: 'Birthday:', item: '1 April 2007'},
-  {label: 'Age:', item: age},
-  {label: 'City:', item: 'Tashkent, Uzbekistan'},
-  {label: 'Website:', item: 'https://shakhrizodazayniddinova.netlify.app'},
-  {label: 'Degree:', item: 'Junior'},
-  {label: 'Email:', item: 'shakhrizodazayniddinova7@gmail.com'},
-];
+const birthDate = new Date(2007, 3, 1);
 
 export default function About({toggleVisible}) {
+  const [age, setAge] = useState(0);
+  
+  useEffect(() => {
+    const currentDate = new Date();
+    let calculatedAge = currentDate.getFullYear() - birthDate.getFullYear();
+
+    if (
+      currentDate.getMonth() < birthDate.getMonth() ||
+      (currentDate.getMonth() === birthDate.getMonth() && currentDate.getDate() < birthDate.getDate())
+    ) {
+      calculatedAge--;
+    }
+    setAge(calculatedAge);
+  }, []);
+  
+  const gridData = [
+    {label: 'Birthday:', item: '1 April 2007'},
+    {label: 'Age:', item: age},
+    {label: 'City:', item: 'Tashkent, Uzbekistan'},
+    {label: 'Website:', item: 'shakhrizodazayniddinova.netlify.app'},
+    {label: 'Degree:', item: 'Junior'},
+    {label: 'Email:', item: 'shakhrizodazayniddinova7@gmail.com'},
+  ];
+
   return (
     <AboutStyled>
       <Title title={'About'} description={"I, Shakhrizoda, am a young developer improving my knowledge in the field of frontend technologies. I am interested in web design and creating interactive features. I am ready to constantly learn and apply new technologies."}/>
