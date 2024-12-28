@@ -27,6 +27,7 @@ import colorsinput from './Assets/colorsinput.png';
 import magicsquares from './Assets/magicsquares.png';
 import blogzine from './Assets/blogzine.png';
 import kevinbennet from './Assets/kevinbennet.png';
+import agency from './Assets/agency.png';
 
 export const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
@@ -61,4 +62,5 @@ export const dynamicCardData = [
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Awesome Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
     {img: byteconvert, workName: 'Byte Converter', aboutWork: 'Webpack | SCSS | NumeralJs | Not Responsive', link: 'https://byteconverter-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/ByteConverter', sourcecode: 'Source Code'},
+    {img: agency, workName: 'Agency', aboutWork: 'NextJs | MUI | React Awesome Reveal | Responsive', link: 'https://agency-rho-tan.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/agency', sourcecode: 'Source Code'},
 ];

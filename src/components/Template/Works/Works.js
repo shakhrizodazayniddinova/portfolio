@@ -16,14 +16,14 @@ export default function Works() {
                 <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpRight`}>
                     <Box className='workCard'>
                         <Box className='workCardImgBox'>
-                            <a href={items.link}>
+                            <a href={items.link} target="_blank">
                                 <img src={items.img} />
                             </a>
                             <Typography variant='caption'><a href={items.githubLink} className={`${items.sourceCodeClass ? items.sourceCodeClass : 'sourceCode'}`}>{items.sourcecode}</a></Typography>
                         </Box>
 
                         <Box className='workCardSec'>
-                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link}>{items.workName}</a></Typography>
+                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link} target="_blank">{items.workName}</a></Typography>
                             <Typography variant='body2'>{items.aboutWork}</Typography>
                         </Box>
                     </Box>
@@ -37,14 +37,14 @@ export default function Works() {
                 <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpLeft`}>
                     <Box className='workCard'>
                         <Box className='workCardImgBox'>
-                            <a href={items.link}>
+                            <a href={items.link} target="_blank">
                                 <img src={items.img} />
                             </a>
                             <Typography variant='caption' className='sourceCodeText'><a href={items.githubLink} className={`${items.sourceCodeClass ? items.sourceCodeClass : 'sourceCode'}`}>{items.sourcecode}</a></Typography>
                         </Box>
 
                         <Box className='workCardSec'>
-                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link}>{items.workName}</a></Typography>
+                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link} target="_blank">{items.workName}</a></Typography>
                             <Typography variant='body2'>{items.aboutWork}</Typography>
                         </Box>
                     </Box>
