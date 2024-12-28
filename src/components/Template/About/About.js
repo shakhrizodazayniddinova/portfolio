@@ -27,7 +27,7 @@ export default function About({toggleVisible}) {
     {label: 'City:', item: 'Tashkent, Uzbekistan'},
     {label: 'Website:', item: 'shakhrizodazayniddinova.netlify.app'},
     {label: 'Degree:', item: 'Junior'},
-    {label: 'Email:', item: 'shakhrizodazayniddinova7@gmail.com'},
+    {label: 'Email:', item: 'shahrizodazayniddinova7@gmail.com'},
   ];
 
   return (

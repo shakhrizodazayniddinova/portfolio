@@ -18,7 +18,7 @@ export default function Resume() {
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Development</Typography>
                 <Typography variant='caption' fontWeight={'bold'}>2023-2024</Typography>
-                <Typography variant='body1'>PDP Academy - Personal Development Process</Typography>
+                <Typography variant='body1'>PDP Academy - Online</Typography>
               </Box>
             </Grid>
 
@@ -31,12 +31,17 @@ export default function Resume() {
 
                 <Box>
                   <Typography variant='caption' fontWeight={'bold'}>Email</Typography>
-                  <Typography variant='body1'>shakhrizodazayniddinova7@gmail.com</Typography>
+                  <Typography variant='body1'>shahrizodazayniddinova7@gmail.com</Typography>
                 </Box>
 
                 <Box>
                   <Typography variant='caption' fontWeight={'bold'}>Phone</Typography>
                   <Typography variant='body1'>(+998) 99-067-90-40</Typography>
+                </Box>
+
+                <Box>
+                  <Typography variant='caption' fontWeight={'bold'}>GitHub</Typography>
+                  <Typography variant='body1'>github.com/shakhrizodazayniddinova</Typography>
                 </Box>
               </Box>
 

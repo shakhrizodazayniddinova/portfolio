@@ -2,10 +2,11 @@ export const resumeDatas = [
     "HTML",
     "CSS",
     "SCSS",
-    "Tailwind",
     "Bootstrap",
+    "Tailwind",
     "Material UI",
+    "Chakra UI",
     "JavaScript",
-    "NextJs",
     "React",
+    "NextJs",
 ]
