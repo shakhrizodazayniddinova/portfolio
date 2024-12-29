@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../Title/Title';
+import Title from '../../Title/Title';
 import { Box, Grid, LinearProgress, Typography } from '@mui/material';
 import { SkillsStyled } from './SkillsStyled';
 import { Slide } from 'react-awesome-reveal';

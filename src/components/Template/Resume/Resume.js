@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../Title/Title';
+import Title from '../../Title/Title';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { ResumeStyled } from './ResumeStyled';
 import { resumeDatas } from './ResumeDatas';
