@@ -28,7 +28,7 @@ export default function Aside({scrollToSection, isVisible}) {
                 </Box>
                 <Box className='socialBtnBox'>
                     <IconButton className='socialBtn'>
-                        <a href="https://t.me/shahrizoda_zayniddinova">
+                        <a href="https://t.me/shakhrizodazayniddinova">
                             <TelegramIcon/>
                         </a>
                     </IconButton>
