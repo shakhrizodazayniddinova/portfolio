@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'animate.css';
 import { Badge, Box, Grid, Typography } from '@mui/material';
-import Title from '../Title/Title';
+import Title from '../../Title/Title';
 import { WorksStyled } from './WorksStyled';
 import { designCardData, dynamicCardData } from './WorksDatas';
 

@@ -3,7 +3,6 @@ import Title from '../Title/Title';
 import { Box, Grid, Typography } from '@mui/material';
 import { ContactStyled } from './ContactStyled';
 
-
 const contactData = [
     {icon: 'bi-geo-alt', label: 'Address', item: 'Tashkent, Uzbekistan'},
     {icon: 'bi-telephone', label: 'Call Us', item: '(+998)99-067-90-40', type: `+998990679040`, typeTo: 'tel:'},

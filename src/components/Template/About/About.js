@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Grid, Typography } from '@mui/material';
-import Title from '../Title/Title';
+import Title from '../../Title/Title';
 import { AboutStyled } from './AboutStyled';
+import DownloadCv from '../../DownloadCv/DownloadCv';
 
 const birthDate = new Date(2007, 3, 1);
 
@@ -56,6 +57,8 @@ export default function About({toggleVisible}) {
       <Box className='aboutText2'>
         <Typography variant='caption'>I have been learning programming 3 years. I have more than 3 years of computer experience. Likes to learn new things, try and communicate. Coffee, photography, music and art are my happy places.</Typography>
       </Box>
+
+      <DownloadCv/>
     </AboutStyled>
   )
 }
