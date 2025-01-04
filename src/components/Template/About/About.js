@@ -26,7 +26,7 @@ export default function About({toggleVisible}) {
     {label: 'Birthday:', item: '1 April 2007'},
     {label: 'Age:', item: age},
     {label: 'City:', item: 'Tashkent, Uzbekistan'},
-    {label: 'Website:', item: 'shakhrizodazayniddinova.netlify.app'},
+    {label: 'Website:', item: 'shakhrizoda.vercel.app'},
     {label: 'Degree:', item: 'Junior'},
     {label: 'Email:', item: 'shahrizodazayniddinova7@gmail.com'},
   ];
