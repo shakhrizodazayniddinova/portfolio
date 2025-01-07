@@ -1,5 +1,5 @@
 import { CssBaseline } from '@mui/material';
-import React, { useRef, useState } from 'react';
+import React, { useCallback, useRef, useState } from 'react';
 import Aside from './Aside/Aside';
 import About from './About/About';
 import Skills from './Skills/Skills';
@@ -11,9 +11,9 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 export default function Template() {
   const [isVisible, setIsVisible] = useState(false);
-  const [activeSection] = useState('about');
+  const [activeSection, setActiveSection] = useState('about'); // State to track the active section
 
-  const toggleVisible = () => setIsVisible(!isVisible);
+  const toggleVisible = useCallback(() => setIsVisible(prev => !prev), []); // useCallback for performance
   
   const sectionsRef = {
     about: useRef(null),
@@ -23,19 +23,24 @@ export default function Template() {
     contact: useRef(null),
   };
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = useCallback((sectionId) => {
     if (sectionsRef[sectionId]?.current) {
       sectionsRef[sectionId].current.scrollIntoView({ behavior: 'smooth' });
-      setIsVisible(false);
+      setIsVisible(false);  // Close the aside when a section is clicked
+      setActiveSection(sectionId);  // Update the active section
     }
-  };
+  }, []);
 
   return (
     <TemplateStyled>
         <CssBaseline/>
 
         <aside>
-          <Aside scrollToSection={scrollToSection} activeSection={activeSection} isVisible={isVisible}/>
+          <Aside 
+            scrollToSection={scrollToSection} 
+            activeSection={activeSection} 
+            setActiveSection={setActiveSection}  // Pass setActiveSection to Aside
+            isVisible={isVisible}/>
         </aside>
 
         <main>

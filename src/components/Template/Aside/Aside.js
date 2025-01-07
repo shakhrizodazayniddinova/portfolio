@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Box, IconButton, List, ListItem, Typography } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import TelegramIcon from '@mui/icons-material/Telegram';
@@ -16,7 +16,11 @@ const navData = [
     {icon: <i className="bi bi-envelope"></i>, label: 'Contact', secName: 'contact'},
 ];
 
-export default function Aside({scrollToSection, isVisible}) {
+export default function Aside({scrollToSection, isVisible, activeSection, setActiveSection}) {
+  const handleScrollToSection = useCallback((secName) => {
+    scrollToSection(secName);
+    setActiveSection(secName);
+  }, [scrollToSection])
 
   return (
     <AsideStyled isVisible={isVisible}>
@@ -27,34 +31,21 @@ export default function Aside({scrollToSection, isVisible}) {
                     <Typography variant='body1' className='nameMe'>Shakhrizoda Zayniddinova</Typography>
                 </Box>
                 <Box className='socialBtnBox'>
-                    <IconButton className='socialBtn'>
-                        <a href="https://t.me/shakhrizodazayniddinova">
-                            <TelegramIcon/>
-                        </a>
-                    </IconButton>
-
-                    <IconButton className='socialBtn'>
-                        <a href="https://www.instagram.com/shakhrezadeff">
-                            <InstagramIcon/>
-                        </a>
-                    </IconButton>
-
-                    <IconButton className='socialBtn'>
-                        <a href="https://www.linkedin.com/in/shakhrizodazayniddinova">
-                            <LinkedInIcon/>
-                        </a>
-                    </IconButton>
-
-                    <IconButton className='socialBtn'>
-                        <a href="https://github.com/shakhrizodazayniddinova">
-                            <GitHubIcon/>
-                        </a>
-                    </IconButton>
+                    {['https://t.me/shakhrizodazayniddinova', 'https://www.instagram.com/shakhrezadeff', 'https://www.linkedin.com/in/shakhrizodazayniddinova', 'https://github.com/shakhrizodazayniddinova'].map((url, index) => {
+                      const icons = [<TelegramIcon />, <InstagramIcon />, <LinkedInIcon />, <GitHubIcon />];
+                      return (
+                        <IconButton key={index} className='socialBtn'>
+                            <a href={url} target="_blank" rel="noopener noreferrer">
+                                {icons[index]}
+                            </a>
+                        </IconButton>
+                      );
+                    })}
                 </Box>
                 <Box className='asideNavBox'>
                     <List className='navList'>
-                        {navData.map((item) => (
-                            <ListItem className={`asideNav`} onClick={() => scrollToSection(item.secName)}>
+                        {navData.map((item, index) => (
+                            <ListItem key={index} className={`asideNav ${activeSection === item.secName ? 'active' : ''}`} onClick={() => handleScrollToSection(item.secName)}>
                                 {item.icon}
                                 <Typography variant='body2' className='navText'>{item.label}</Typography>
                             </ListItem>

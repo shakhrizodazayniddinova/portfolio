@@ -102,6 +102,13 @@ export const AsideStyled = styled.div`
                         font-size: 17px;
                     }
                 }
+                .active{
+                    color: #149ddd;
+
+                    .navText{
+                        color: white;
+                    }
+                }
             } 
         }
     }
