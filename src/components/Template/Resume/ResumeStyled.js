@@ -36,6 +36,11 @@ export const ResumeStyled = styled.div`
         gap: 8px;
         padding: 0px 20px 5px 20px;
         border-left: 2px solid #007bff;
+
+        li{
+          margin: 0;
+          padding: 5px 0;
+        }
   
         .circle{
           width: 15px;

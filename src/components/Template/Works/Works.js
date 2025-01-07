@@ -23,7 +23,9 @@ export default function Works() {
                         </Box>
 
                         <Box className='workCardSec'>
-                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link} target="_blank">{items.workName}</a></Typography>
+                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'>
+                                <a href={items.link} target="_blank">{items.workName}</a>
+                            </Typography>
                             <Typography variant='body2'>{items.aboutWork}</Typography>
                         </Box>
                     </Box>
@@ -44,7 +46,9 @@ export default function Works() {
                         </Box>
 
                         <Box className='workCardSec'>
-                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'><a href={items.link} target="_blank">{items.workName}</a></Typography>
+                            <Typography variant='subtitle1' fontWeight={'bold'} className='workName'>
+                                <a href={items.link} target="_blank">{items.workName}</a>
+                            </Typography>
                             <Typography variant='body2'>{items.aboutWork}</Typography>
                         </Box>
                     </Box>
@@ -68,7 +72,7 @@ export default function Works() {
             </nav>
 
             <Grid container spacing={'10px'} rowGap={'30px'}>
-                {renderContent()}
+                { renderContent() }
             </Grid>
         </Box>
     </WorksStyled>

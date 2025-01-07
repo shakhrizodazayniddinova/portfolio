@@ -38,7 +38,7 @@ export const AboutStyled = styled.div`
   .aboutText2{
     padding: 10px;
     margin-top: 20px;
-    border: 1px solid #040b14;
+    border: 1px solid #149ddd;
     border-width: 0px 0px 0px 1px;
   }
 

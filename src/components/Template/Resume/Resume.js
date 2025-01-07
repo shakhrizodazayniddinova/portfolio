@@ -63,7 +63,9 @@ export default function Resume() {
 
                 <List>
                   {resumeDatas.map((item, index) => (
-                    <ListItem key={index}><Typography variant='button'>{item}</Typography></ListItem>
+                    <ListItem key={index}>
+                      <Typography variant='button'>{item}</Typography>
+                    </ListItem>
                   ))}
                 </List>
               </Box>

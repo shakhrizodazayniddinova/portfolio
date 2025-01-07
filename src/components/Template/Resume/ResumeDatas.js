@@ -9,4 +9,5 @@ export const resumeDatas = [
     "JavaScript",
     "React",
     "NextJs",
+    "Webpack",
 ]

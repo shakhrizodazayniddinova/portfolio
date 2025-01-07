@@ -90,9 +90,9 @@ export const WorksStyled = styled.div`
                 flex-direction: column;
                 gap: 10px;
 
-                .workName{
+                .workName{                    
                     a{
-                        color: black;
+                        color: #040b14;
                     }
                 }
             }
