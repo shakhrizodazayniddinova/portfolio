@@ -10,7 +10,7 @@ import { Slide } from 'react-awesome-reveal';
 
 const navData = [
     {icon: <i className="bi bi-person"></i>, label: 'About', secName: 'about'},
-    {icon: <i class="bi bi-graph-up"></i>, label: 'Skills', secName: 'skills'},
+    {icon: <i className="bi bi-graph-up"></i>, label: 'Skills', secName: 'skills'},
     {icon: <i className="bi bi-file-earmark-text"></i>, label: 'Resume', secName: 'resume'},
     {icon: <i className="bi bi-images"></i>, label: 'Portfolio', secName: 'works'},
     {icon: <i className="bi bi-envelope"></i>, label: 'Contact', secName: 'contact'},

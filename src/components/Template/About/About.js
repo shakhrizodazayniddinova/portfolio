@@ -42,8 +42,8 @@ export default function About({toggleVisible}) {
 
       <Box className='gridBox'>
         <Grid container className='gridContainer'>
-          {gridData.map((items) => (
-            <Grid item xs={12} sm={6} md={4} className='gridItem'>
+          {gridData.map((items, index) => (
+            <Grid item xs={12} sm={6} md={4} className='gridItem' key={index}>
               <Box className='aboutGridItems'>
                 <i className="bi bi-chevron-right arrowIcon"></i>
                 <Typography variant='body1' className='boldText'>{items.label}</Typography>
