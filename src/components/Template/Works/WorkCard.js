@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import 'animate.css';
 import { Box, Grid, Typography } from '@mui/material';
 
-export default function WorkCard({items}) {
+function WorkCard({items}) {
   return (
     <Grid item xs={12} sm={6} md={4} className={`animate__animated animate__rotateInUpRight`}>
         <Box className='workCard'>
@@ -25,5 +25,7 @@ export default function WorkCard({items}) {
             </Box>
         </Box>
     </Grid>
-  )
+  );
 }
+
+export default memo(WorkCard);

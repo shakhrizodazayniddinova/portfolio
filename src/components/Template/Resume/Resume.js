@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { memo, useMemo } from 'react';
 import Title from '../../Title/Title';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { ResumeStyled } from './ResumeStyled';
 import { resumeDatas } from './ResumeDatas';
 
-export default function Resume() {
+function Resume() {
+  const memoizedResumeDatas = useMemo(() => resumeDatas, []);
+
   return (
     <ResumeStyled>
         <Title title={"Resume"} description={"I am working towards becoming a Frontend Developer. I have experience working with HTML, CSS, SCSS, Tailwind, Bootstrap, Material UI, JavaScript, and React. I'm a quick learner and a problem solver. I want to enrich my experience through web projects."}/>
@@ -62,7 +64,7 @@ export default function Resume() {
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Skills</Typography>
 
                 <List>
-                  {resumeDatas.map((item, index) => (
+                  {memoizedResumeDatas.map((item, index) => (
                     <ListItem key={index}>
                       <Typography variant='button'>{item}</Typography>
                     </ListItem>
@@ -81,3 +83,5 @@ export default function Resume() {
     </ResumeStyled>
   )
 }
+
+export default memo(Resume);

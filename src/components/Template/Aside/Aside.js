@@ -16,10 +16,9 @@ const navData = [
     {icon: <i className="bi bi-envelope"></i>, label: 'Contact', secName: 'contact'},
 ];
 
-export default function Aside({scrollToSection, isVisible, activeSection, setActiveSection}) {
+export default function Aside({scrollToSection, isVisible}) {
   const handleScrollToSection = useCallback((secName) => {
     scrollToSection(secName);
-    setActiveSection(secName);
   }, [scrollToSection])
 
   return (
@@ -45,7 +44,7 @@ export default function Aside({scrollToSection, isVisible, activeSection, setAct
                 <Box className='asideNavBox'>
                     <List className='navList'>
                         {navData.map((item, index) => (
-                            <ListItem key={index} className={`asideNav ${activeSection === item.secName ? 'active' : ''}`} onClick={() => handleScrollToSection(item.secName)}>
+                            <ListItem key={index} className={`asideNav`} onClick={() => handleScrollToSection(item.secName)}>
                                 {item.icon}
                                 <Typography variant='body2' className='navText'>{item.label}</Typography>
                             </ListItem>

@@ -14,8 +14,8 @@ export const CvStyled = styled.div`
         justify-content: center;
         gap: 10px;
         color: #fff;
-        text-decoration: none;
         background-color:rgba(4, 11, 20, 0.9);
+        text-decoration: none;
         border-radius: 10px;
         cursor: pointer;
 

@@ -57,7 +57,7 @@ export const AboutStyled = styled.div`
 
       @media(max-width: 400px) {
         width: 90%;
-        gap: 8px !important;
+        gap: 8px;
       }
     }
 

@@ -11,8 +11,6 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 export default function Template() {
   const [isVisible, setIsVisible] = useState(false);
-  const [activeSection, setActiveSection] = useState('about'); // State to track the active section
-
   const toggleVisible = useCallback(() => setIsVisible(prev => !prev), []); // useCallback for performance
   
   const sectionsRef = {
@@ -27,7 +25,6 @@ export default function Template() {
     if (sectionsRef[sectionId]?.current) {
       sectionsRef[sectionId].current.scrollIntoView({ behavior: 'smooth' });
       setIsVisible(false);  // Close the aside when a section is clicked
-      setActiveSection(sectionId);  // Update the active section
     }
   }, []);
 
@@ -37,9 +34,7 @@ export default function Template() {
 
         <aside>
           <Aside 
-            scrollToSection={scrollToSection} 
-            activeSection={activeSection} 
-            setActiveSection={setActiveSection}  // Pass setActiveSection to Aside
+            scrollToSection={scrollToSection}
             isVisible={isVisible}/>
         </aside>
 

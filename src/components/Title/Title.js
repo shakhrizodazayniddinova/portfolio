@@ -1,9 +1,9 @@
 import { Divider, Typography } from '@mui/material';
-import React from 'react';
+import React, { memo } from 'react';
 import { TitleStyled } from './TitleStyled';
 import { Slide } from 'react-awesome-reveal';
 
-export default function Title({title, description}) {
+function Title({title, description}) {
   return (
     <TitleStyled>
       <Slide direction='left' duration={500}>
@@ -14,3 +14,5 @@ export default function Title({title, description}) {
     </TitleStyled>
   )
 }
+
+export default memo(Title);
