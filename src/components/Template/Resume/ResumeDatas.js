@@ -6,6 +6,7 @@ export const resumeDatas = [
     "Tailwind",
     "Material UI",
     "Chakra UI",
+    "Ant Design",
     "JavaScript",
     "React",
     "NextJs",
