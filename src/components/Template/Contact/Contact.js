@@ -5,7 +5,7 @@ import { ContactStyled } from './ContactStyled';
 
 const contactData = [
     {icon: 'bi-geo-alt', label: 'Address', item: 'Tashkent, Uzbekistan'},
-    {icon: 'bi-telephone', label: 'Call Us', item: '(+998)99-067-90-40', type: `+998990679040`, typeTo: 'tel:'},
+    {icon: 'bi-telephone', label: 'Call Us', item: '+998-99-067-9040', type: `+998990679040`, typeTo: 'tel:'},
     {icon: 'bi-envelope', label: 'Email', item: 'shahrizodazayniddinova7@gmail.com', type: `shahrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
 ];
 
