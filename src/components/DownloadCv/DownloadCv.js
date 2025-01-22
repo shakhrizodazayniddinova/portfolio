@@ -4,7 +4,7 @@ import { CvStyled } from './DownloadCvStyled'
 export default function DownloadCv() {
   return (
     <CvStyled>
-        <a href="/Shakhrizoda Zayniddinova_Frontend.pdf" download>
+        <a href="/Shakhrizoda Zayniddinova.pdf" download>
             <i className="bi bi-download"></i>
             Download CV
         </a>

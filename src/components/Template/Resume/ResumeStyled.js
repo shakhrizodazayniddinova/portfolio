@@ -54,12 +54,12 @@ export const ResumeStyled = styled.div`
         }
       }
       .gridItemBoxItems2{
-        padding-bottom: 70px;
+        padding-bottom: 20px;
       }
     }
 
     .gridItemBox2{
-      margin-top: 40px;
+      /* margin-top: 40px; */
     }
   }
 `;

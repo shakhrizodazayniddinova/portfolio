@@ -63,7 +63,7 @@ function Resume() {
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Skills</Typography>
 
-                <List>
+                <List sx={{p: 0}}>
                   {memoizedResumeDatas.map((item, index) => (
                     <ListItem key={index}>
                       <Typography variant='button'>{item}</Typography>
@@ -75,7 +75,7 @@ function Resume() {
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Language</Typography>
-                <Typography variant='body1'>English - Intermediate</Typography>
+                <Typography variant='body1'>English - Basic</Typography>
               </Box>
             </Grid>
           </Grid>

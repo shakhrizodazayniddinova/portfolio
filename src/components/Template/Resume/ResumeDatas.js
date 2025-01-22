@@ -2,6 +2,7 @@ export const resumeDatas = [
     "HTML",
     "CSS",
     "SCSS",
+    "LESS",
     "Bootstrap",
     "Tailwind",
     "Material UI",
@@ -10,5 +11,6 @@ export const resumeDatas = [
     "JavaScript",
     "React",
     "NextJs",
+    "VueJs",
     "Webpack",
 ]
