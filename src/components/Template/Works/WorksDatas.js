@@ -1,43 +1,31 @@
 import treloo from './Assets/treloo.png';
 import hilltop from './Assets/hilltop.png';
 import foodhut from './Assets/foodhut.png';
-import shopbootstrap from './Assets/shopbootstrap.png';
-import welcomebootstrap from './Assets/welcomebootstrap.png';
-import olegmarkov from './Assets/olegmarkov.png';
 import kaylagriffith from './Assets/kaylagriffith.png';
 import geeks from './Assets/geeks.png';
-import albumlayout from './Assets/albumlayout.png';
 import calculator from './Assets/calculator.png';
 import todo from './Assets/todo.png';
-import formdemo from './Assets/formdemo.png';
 import organicfood from './Assets/organicfood.png';
 import zone from './Assets/zone.png';
-import charts from './Assets/charts.png';
 import skymovie from './Assets/skymovie.png';
 import booknest from './Assets/booknest.png';
 import express from './Assets/express.png';
 import resipe from './Assets/resipe.png';
 import youtube from './Assets/youtube.png';
 import calendar from './Assets/calendar.png';
-import byteconvert from './Assets/byteconvert.png';
 import teamify from './Assets/teamify.png';
 import school from './Assets/school.png';
 import pomodoro from './Assets/pomodoro.png';
 import colorsinput from './Assets/colorsinput.png';
 import magicsquares from './Assets/magicsquares.png';
 import blogzine from './Assets/blogzine.png';
-import kevinbennet from './Assets/kevinbennet.png';
 import agency from './Assets/agency.png';
 
 export const designCardData = [
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: hilltop, workName: 'Hill Top', aboutWork: 'HTML | SCSS | Not responsive', link: 'https://hilltop-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
-    {img: olegmarkov, workName: 'Oleg Markov', aboutWork: 'React | CSS | Not Responsive', link: 'https://olegmarkov-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/oleg', sourcecode: 'Source Code'},
     {img: kaylagriffith, workName: 'Kayla Griffith', aboutWork: 'React | CSS | Not Responsive', link: 'https://kaylagriffith-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/griffith', sourcecode: 'Source Code'},
-    {img: shopbootstrap, workName: 'Start Bootstrap', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://homepage-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/shopHomePage', sourcecode: 'Source Code'},
-    {img: welcomebootstrap, workName: 'Blog Home', aboutWork: 'React | React Bootstrap | Not Responsive', link: 'https://welcome-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/welcomeMyApp', sourcecode: 'Source Code'},
     {img: geeks, workName: 'Geeks', aboutWork: 'React | Styled components | Not Responsive', link: 'https://geeks-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/geeks', sourcecode: 'Source Code'},
-    {img: albumlayout, workName: 'Album layout', aboutWork: 'React | MUI | Responsive', link: 'https://album-layout-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/album-layout', sourcecode: 'Source Code'},
     {img: zone, workName: 'Zone Landing', aboutWork: 'React | MUI | Styled components | Not Responsive', link: 'https://zone-landing-clone.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/zone-landing-clone', sourcecode: 'Source Code'},
     {img: organicfood, workName: 'Organic Food', aboutWork: 'Webpack | SCSS | Not Responsive', link: 'https://organicfood-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/organicFood', sourcecode: 'Source Code'},
     {img: teamify, workName: 'Teamify', aboutWork: 'NextJs | MUI | Not Responsive', link: 'https://teamify-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/teamify', sourcecode: 'Source Code'},
@@ -49,7 +37,6 @@ export const dynamicCardData = [
     {img: pomodoro, workName: 'Pomodoro', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://pomodoro-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/pomodoro', sourcecode: 'Source Code'},
     {img: colorsinput, workName: 'Colors & Images', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://colorsinput-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/colorsinput', sourcecode: 'Source Code'},
     {img: magicsquares, workName: 'Magic Squares', aboutWork: 'HTML | CSS | Tailwind | JavaScript | Not Responsive', link: 'https://magicsquares-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/squares', sourcecode: 'Source Code'},
-    {img: kevinbennet, workName: 'Kevin Bennet', aboutWork: 'React | CSS | Context API | Not Responsive', link: 'https://kevinbennet-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/kevinbennet', sourcecode: 'Source Code'},
     {img: calculator, workName: 'Calculator', aboutWork: 'React | SCSS | Not Responsive', link: 'https://calculator-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calculator', sourcecode: 'Source Code'},
     {img: blogzine, workName: 'Blogzine', aboutWork: 'React | SCSS | React Bootstrap | Not Responsive', link: 'https://blogzine-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/blogzine', sourcecode: 'Source Code'},
     {img: todo, workName: 'ToDo App', aboutWork: 'React | Styled components | Redux Toolkit | React Awesome Reveal | Responsive', link: 'https://todoapp-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/todoapp', sourcecode: 'Source Code'},
@@ -57,10 +44,7 @@ export const dynamicCardData = [
     {img: booknest, workName: 'Book Nest', aboutWork: 'React | Styled components | Context API | React Hook Form | Router | Redux | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
     {img: express, workName: 'Express24', aboutWork: 'React | Styled components | Router | Redux | Not Responsive', link: 'https://express-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/express24', sourcecode: 'Source Code'},
     {img: resipe, workName: 'Food Resipes', aboutWork: 'React | MUI | Styled components | API | Responsive', link: 'https://foodresipe.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/foodresipe', sourcecode: 'Source Code'},
-    {img: formdemo, workName: 'Form Demo', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://formdemo-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/formdemo', sourcecode: 'Source Code'},
-    {img: charts, workName: 'Charts', aboutWork: 'React | ChartJS | Responsive', link: 'https://charts-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/charts', sourcecode: 'Source Code'},
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Firebase | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Awesome Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
-    {img: byteconvert, workName: 'Byte Converter', aboutWork: 'Webpack | SCSS | NumeralJs | Not Responsive', link: 'https://byteconverter-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/ByteConverter', sourcecode: 'Source Code'},
     {img: agency, workName: 'Agency', aboutWork: 'NextJs | MUI | React Awesome Reveal | Responsive', link: 'https://agency-rho-tan.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/agency', sourcecode: 'Source Code'},
 ];
