@@ -37,6 +37,17 @@ export const ResumeStyled = styled.div`
         padding: 0px 20px 5px 20px;
         border-left: 2px solid #007bff;
 
+        .educationSkills{
+          padding-left: 14px;
+          margin: 10px;
+
+          li{
+            padding: 2px;
+            font-size: smaller;
+            color:rgb(70, 70, 70);
+          }
+        }
+
         li{
           margin: 0;
           padding: 5px 0;
@@ -59,7 +70,7 @@ export const ResumeStyled = styled.div`
     }
 
     .gridItemBox2{
-      /* margin-top: 40px; */
+      margin-top: 20px;
     }
   }
 `;

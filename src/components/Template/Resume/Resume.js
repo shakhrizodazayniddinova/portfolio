@@ -21,6 +21,17 @@ function Resume() {
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Frontend Development</Typography>
                 <Typography variant='caption' fontWeight={'bold'}>2023-2024</Typography>
                 <Typography variant='body1'>PDP Academy - Online</Typography>
+                <ul className='educationSkills'>
+                  <li>HTML, CSS, SASS, Bootstrap, Material UI</li>
+                  <li>JavaScript (ES6+), ReactJS, NextJs</li>
+                  <li>State Management - Redux Toolkit, Context API</li>
+                  <li>API Integration: RESTful APIs, JSON APIs, Axios</li>
+                  <li>Vitest</li>
+                  <li>Utility Libraries</li>
+                  <li>Responsive Design</li>
+                  <li>React Awesome Reveal, Animation CSS</li>
+                  <li>Git/GitHub, VS Code, npm</li>
+                </ul>
               </Box>
             </Grid>
 
@@ -38,12 +49,7 @@ function Resume() {
 
                 <Box>
                   <Typography variant='caption' fontWeight={'bold'}>Phone</Typography>
-                  <Typography variant='body1'>(+998) 99-067-90-40</Typography>
-                </Box>
-
-                <Box>
-                  <Typography variant='caption' fontWeight={'bold'}>GitHub</Typography>
-                  <Typography variant='body1'>github.com/shakhrizodazayniddinova</Typography>
+                  <Typography variant='body1'>+998 99-067-90-40</Typography>
                 </Box>
               </Box>
 
@@ -66,7 +72,7 @@ function Resume() {
                 <List sx={{p: 0}}>
                   {memoizedResumeDatas.map((item, index) => (
                     <ListItem key={index}>
-                      <Typography variant='button'>{item}</Typography>
+                      <Typography variant='button' fontSize={'13px'}>{item}</Typography>
                     </ListItem>
                   ))}
                 </List>
@@ -75,7 +81,9 @@ function Resume() {
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Language</Typography>
-                <Typography variant='body1'>English - Basic</Typography>
+                <Typography variant='body1'>Uzbek <Typography variant='caption' fontWeight={'bold'}>(Native)</Typography> </Typography>
+                <Typography variant='body1'>English <Typography variant='caption' fontWeight={'bold'}>(Basic)</Typography> </Typography>
+                <Typography variant='body1'>Russian <Typography variant='caption' fontWeight={'bold'}>(Basic)</Typography> </Typography>
               </Box>
             </Grid>
           </Grid>
