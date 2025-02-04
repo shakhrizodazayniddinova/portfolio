@@ -11,6 +11,7 @@ import skymovie from './Assets/skymovie.png';
 import booknest from './Assets/booknest.png';
 import express from './Assets/express.png';
 import resipe from './Assets/resipe.png';
+import contact from './Assets/contact.png';
 import youtube from './Assets/youtube.png';
 import calendar from './Assets/calendar.png';
 import teamify from './Assets/teamify.png';
@@ -44,6 +45,7 @@ export const dynamicCardData = [
     {img: booknest, workName: 'Book Nest', aboutWork: 'React | Styled components | Context API | React Hook Form | Router | Redux | Responsive', link: 'https://booknest-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/BookNest', sourcecode: 'Source Code'},
     {img: express, workName: 'Express24', aboutWork: 'React | Styled components | Router | Redux | Not Responsive', link: 'https://express-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/express24', sourcecode: 'Source Code'},
     {img: resipe, workName: 'Food Resipes', aboutWork: 'React | MUI | Styled components | API | Responsive', link: 'https://foodresipe.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/foodresipe', sourcecode: 'Source Code'},
+    {img: contact, workName: 'Contact Management', aboutWork: 'React | MUI | React Hook Form | Responsive', link: 'https://contact-manager-kohl.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/contact-manager', sourcecode: 'Source Code'},
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Firebase | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Awesome Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
     {img: agency, workName: 'Agency', aboutWork: 'NextJs | MUI | React Awesome Reveal | Responsive', link: 'https://agency-rho-tan.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/agency', sourcecode: 'Source Code'},

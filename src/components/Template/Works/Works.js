@@ -1,10 +1,9 @@
 import React, { useMemo, useState } from 'react';
-import 'animate.css';
 import { Badge, Box, Grid, Typography } from '@mui/material';
 import Title from '../../Title/Title';
-import { WorksStyled } from './WorksStyled';
-import { designCardData, dynamicCardData } from './WorksDatas';
 import WorkCard from './WorkCard';
+import { designCardData, dynamicCardData } from './WorksDatas';
+import { WorksStyled } from './WorksStyled';
 
 export default function Works() {
     const [activeSection, setActiveSection] = useState("dynamic");
