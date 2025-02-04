@@ -1,0 +1,180 @@
+{
+    "designCardData": [
+      {
+        "img": "./Assets/treloo.png",
+        "workName": "Treloo",
+        "aboutWork": "HTML | SCSS | Responsive",
+        "link": "https://trelooo.netlify.app/",
+        "sourceCodeClass": "sourceCodeNone"
+      },
+      {
+        "img": "./Assets/hilltop.png",
+        "workName": "Hill Top",
+        "aboutWork": "HTML | SCSS | Not responsive",
+        "link": "https://hilltop-shakhrizoda.netlify.app/",
+        "sourceCodeClass": "sourceCodeNone"
+      },
+      {
+        "img": "./Assets/kaylagriffith.png",
+        "workName": "Kayla Griffith",
+        "aboutWork": "React | CSS | Not Responsive",
+        "link": "https://kaylagriffith-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/griffith",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/geeks.png",
+        "workName": "Geeks",
+        "aboutWork": "React | Styled components | Not Responsive",
+        "link": "https://geeks-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/geeks",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/zone.png",
+        "workName": "Zone Landing",
+        "aboutWork": "React | MUI | Styled components | Not Responsive",
+        "link": "https://zone-landing-clone.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/zone-landing-clone",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/organicfood.png",
+        "workName": "Organic Food",
+        "aboutWork": "Webpack | SCSS | Not Responsive",
+        "link": "https://organicfood-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/organicFood",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/teamify.png",
+        "workName": "Teamify",
+        "aboutWork": "NextJs | MUI | Not Responsive",
+        "link": "https://teamify-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/teamify",
+        "sourcecode": "Source Code"
+      }
+    ],
+    "dynamicCardData": [
+      {
+        "img": "./Assets/foodhut.png",
+        "workName": "Food Hut",
+        "aboutWork": "HTML | SCSS | JavaScript | Responsive",
+        "link": "https://food-hut-by-shakhrizoda.netlify.app/",
+        "sourceCodeClass": "sourceCodeNone"
+      },
+      {
+        "img": "./Assets/school.png",
+        "workName": "Online School",
+        "aboutWork": "HTML | SCSS | Tailwind | JavaScript | Not Responsive",
+        "link": "https://school-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/school",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/pomodoro.png",
+        "workName": "Pomodoro",
+        "aboutWork": "HTML | CSS | Tailwind | JavaScript | Not Responsive",
+        "link": "https://pomodoro-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/pomodoro",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/colorsinput.png",
+        "workName": "Colors & Images",
+        "aboutWork": "HTML | CSS | Tailwind | JavaScript | Not Responsive",
+        "link": "https://colorsinput-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/colorsinput",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/magicsquares.png",
+        "workName": "Magic Squares",
+        "aboutWork": "HTML | CSS | Tailwind | JavaScript | Not Responsive",
+        "link": "https://magicsquares-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/squares",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/calculator.png",
+        "workName": "Calculator",
+        "aboutWork": "React | SCSS | Not Responsive",
+        "link": "https://calculator-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/calculator",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/blogzine.png",
+        "workName": "Blogzine",
+        "aboutWork": "React | SCSS | React Bootstrap | Not Responsive",
+        "link": "https://blogzine-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/blogzine",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/todo.png",
+        "workName": "ToDo App",
+        "aboutWork": "React | Styled components | Redux Toolkit | React Awesome Reveal | Responsive",
+        "link": "https://todoapp-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/todoapp",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/skymovie.png",
+        "workName": "Sky and Movie",
+        "aboutWork": "React | Styled components | API | Router | Responsive",
+        "link": "https://skyandscreen-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/weather",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/booknest.png",
+        "workName": "Book Nest",
+        "aboutWork": "React | Styled components | Context API | React Hook Form | Router | Redux | Responsive",
+        "link": "https://booknest-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/BookNest",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/express.png",
+        "workName": "Express24",
+        "aboutWork": "React | Styled components | Router | Redux | Not Responsive",
+        "link": "https://express-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/express24",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/resipe.png",
+        "workName": "Food Resipes",
+        "aboutWork": "React | MUI | Styled components | API | Responsive",
+        "link": "https://foodresipe.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/foodresipe",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/youtube.png",
+        "workName": "Youtube clone",
+        "aboutWork": "React | SCSS | MUI | Json API | Router | Redux | Firebase | Not Responsive",
+        "link": "https://youtube-by-shakhrizoda.netlify.app",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/youtube",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/calendar.png",
+        "workName": "Calendar",
+        "aboutWork": "Webpack | SCSS | MomentJs | Classnames | React Awesome Reveal | Context API | Not Responsive",
+        "link": "https://calendar-by-shakhrizoda.netlify.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/calendar",
+        "sourcecode": "Source Code"
+      },
+      {
+        "img": "./Assets/agency.png",
+        "workName": "Agency",
+        "aboutWork": "NextJs | MUI | React Awesome Reveal | Responsive",
+        "link": "https://agency-rho-tan.vercel.app/",
+        "githubLink": "https://github.com/shakhrizodazayniddinova/agency",
+        "sourcecode": "Source Code"
+      }
+    ]
+  }
+  
