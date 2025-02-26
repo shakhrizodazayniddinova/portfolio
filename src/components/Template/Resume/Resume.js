@@ -82,7 +82,7 @@ function Resume() {
                 <span className='circle'></span>
                 <Typography variant='overline' fontWeight={'bold'} color='gray'>Language</Typography>
                 <Typography variant='body1'>Uzbek <Typography variant='caption' fontWeight={'bold'}>(Native)</Typography> </Typography>
-                <Typography variant='body1'>English <Typography variant='caption' fontWeight={'bold'}>(Basic)</Typography> </Typography>
+                <Typography variant='body1'>English <Typography variant='caption' fontWeight={'bold'}>(Intermediate)</Typography> </Typography>
                 <Typography variant='body1'>Russian <Typography variant='caption' fontWeight={'bold'}>(Basic)</Typography> </Typography>
               </Box>
             </Grid>

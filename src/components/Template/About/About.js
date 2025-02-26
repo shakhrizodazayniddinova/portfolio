@@ -33,7 +33,7 @@ export default function About({toggleVisible}) {
 
   return (
     <AboutStyled>
-      <Title title={'About'} description={"I, Shakhrizoda, am a young developer improving my knowledge in the field of frontend technologies. I am interested in web design and creating interactive features. I am ready to constantly learn and apply new technologies."}/>
+      <Title title={'About'} description={"I am a passionate front-end developer with a strong interest in React, JavaScript and web development. I have experience working with API. As a frontend developer, I participated in the development of the admin panel. I created a dynamic UI using NextJs, TypeScript and Tailwind added data management functions. I want to continue learning and expanding my knowledge of front-end technologies while contributing to impactful projects. "}/>
       <span className='asideList'><i class="bi bi-list" onClick={toggleVisible}></i></span>
 
       <Box className='aboutData'>
