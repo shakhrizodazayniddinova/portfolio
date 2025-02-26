@@ -30,7 +30,7 @@ export default function Aside({scrollToSection, isVisible}) {
                     <Typography variant='body1' className='nameMe'>Shakhrizoda Zayniddinova</Typography>
                 </Box>
                 <Box className='socialBtnBox'>
-                    {['https://t.me/shakhrizodazayniddinova', 'https://www.instagram.com/shakhrezadeff', 'https://www.linkedin.com/in/shakhrizodazayniddinova', 'https://github.com/shakhrizodazayniddinova'].map((url, index) => {
+                    {['https://t.me/zayniddinovvas', 'https://www.instagram.com/zayniddinovvas', 'https://www.linkedin.com/in/shakhrizodazayniddinova', 'https://github.com/shakhrizodazayniddinova'].map((url, index) => {
                       const icons = [<TelegramIcon />, <InstagramIcon />, <LinkedInIcon />, <GitHubIcon />];
                       return (
                         <IconButton key={index} className='socialBtn'>
