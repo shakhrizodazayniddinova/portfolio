@@ -9,6 +9,6 @@ export const SkillsDate = [
     {name: 'Shadcn UI', value: 60},
     {name: 'JavaScript', value: 80},
     {name: 'React', value: 70},
-    {name: 'NextJs', value: 40},
+    {name: 'NextJs', value: 60},
     {name: 'VueJs', value: 40},
 ];

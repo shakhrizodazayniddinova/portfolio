@@ -19,13 +19,13 @@ const navData = [
 export default function Aside({scrollToSection, isVisible}) {
   const handleScrollToSection = useCallback((secName) => {
     scrollToSection(secName);
-  }, [scrollToSection])
+  }, [scrollToSection]);
 
   return (
     <AsideStyled isVisible={isVisible}>
         <Slide direction='left'>
             <Box className='asideBox'>
-                <Box className='nameImgBox'>
+                    <Box className='nameImgBox'>
                     <AccountCircleIcon className='imgMe'/>
                     <Typography variant='body1' className='nameMe'>Shakhrizoda Zayniddinova</Typography>
                 </Box>
@@ -54,5 +54,5 @@ export default function Aside({scrollToSection, isVisible}) {
             </Box>
         </Slide>
     </AsideStyled>
-  )
-}
+  );
+};
