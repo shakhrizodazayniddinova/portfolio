@@ -17,9 +17,6 @@ export default function Aside({scrollToSection, isVisible}) {
 
 // language state
   const {t, i18n} = useTranslation();
-  const changeLanguage = (e) => {
-    i18n.changeLanguage(e.target.value);
-  };
 
   const navData = [
     {icon: <i className="bi bi-person"></i>, label: t("heading.about"), secName: 'about'},
