@@ -5,7 +5,7 @@ import Flag from 'react-world-flags';
 
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
-  const storageLang = localStorage.getItem('lang') || 'uz';
+  const storageLang = localStorage.getItem('lang') || 'en';
   const [selectedLang, setSelectedLang] = useState(storageLang);
 
   const handleChange = (e) => {
