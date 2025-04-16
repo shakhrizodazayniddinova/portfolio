@@ -4,13 +4,15 @@ import { Box, Grid, LinearProgress, Typography } from '@mui/material';
 import { SkillsStyled } from './SkillsStyled';
 import { Slide } from 'react-awesome-reveal';
 import { SkillsDate } from './SkillsData';
+import { useTranslation } from 'react-i18next';
 
 export default function Skills() {
+    const {t} = useTranslation();
   const memoizedSkillsData = useMemo(() => SkillsDate, []);
 
   return (
     <SkillsStyled>
-        <Title title={'Skills'} description={"I have a strong foundation in frontend development, with expertise in building websites using HTML, CSS, JavaScript, and React. I'm committed to delivering high-quality, responsive designs and I'm constantly evolving to incorporate the latest web development practices."}/>
+        <Title title={t('heading.skills')} description={t('titles.skills')}/>
 
         <Grid container spacing={'30px'} width={'100%'}>
             {memoizedSkillsData.map((skill) => (

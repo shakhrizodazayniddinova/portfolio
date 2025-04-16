@@ -2,19 +2,23 @@ import React, { useMemo } from 'react';
 import Title from '../../Title/Title';
 import { Box, Grid, Typography } from '@mui/material';
 import { ContactStyled } from './ContactStyled';
+import { useTranslation } from 'react-i18next';
 
-const contactData = [
-    {icon: 'bi-geo-alt', label: 'Address', item: 'Tashkent, Uzbekistan'},
-    {icon: 'bi-telephone', label: 'Call Us', item: '+998-99-067-9040', type: `+998990679040`, typeTo: 'tel:'},
-    {icon: 'bi-envelope', label: 'Email', item: 'shahrizodazayniddinova7@gmail.com', type: `shahrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
-];
 
 export default function Contact() {
-  const memoizedContactData = useMemo(() => contactData, []);
+    const {t} = useTranslation();
+
+    const contactData = [
+        {icon: 'bi-geo-alt', label: t('contactData.address'), item: 'Tashkent, Uzbekistan'},
+        {icon: 'bi-telephone', label: t('contactData.call'), item: '+998-99-067-9040', type: `+998990679040`, typeTo: 'tel:'},
+        {icon: 'bi-envelope', label: 'Email', item: 'shahrizodazayniddinova7@gmail.com', type: `shahrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
+    ];
+
+    const memoizedContactData = useMemo(() => contactData, []);
 
   return (
     <ContactStyled>
-        <Title title={'Contact'} description={'I am ready to work on your future project. Use the information below to contact me.'}/>
+        <Title title={t('heading.contact')} description={t('titles.contact')}/>
 
         <Box>
             <Grid container className='contactBox'>

@@ -7,19 +7,27 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { AsideStyled } from './AsideStyled';
 import { Slide } from 'react-awesome-reveal';
-
-const navData = [
-    {icon: <i className="bi bi-person"></i>, label: 'About', secName: 'about'},
-    {icon: <i className="bi bi-graph-up"></i>, label: 'Skills', secName: 'skills'},
-    {icon: <i className="bi bi-file-earmark-text"></i>, label: 'Resume', secName: 'resume'},
-    {icon: <i className="bi bi-images"></i>, label: 'Portfolio', secName: 'works'},
-    {icon: <i className="bi bi-envelope"></i>, label: 'Contact', secName: 'contact'},
-];
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from '../../LanguageSwitcher/LanguageSwitcher';
 
 export default function Aside({scrollToSection, isVisible}) {
   const handleScrollToSection = useCallback((secName) => {
     scrollToSection(secName);
   }, [scrollToSection]);
+
+// language state
+  const {t, i18n} = useTranslation();
+  const changeLanguage = (e) => {
+    i18n.changeLanguage(e.target.value);
+  };
+
+  const navData = [
+    {icon: <i className="bi bi-person"></i>, label: t("heading.about"), secName: 'about'},
+    {icon: <i className="bi bi-graph-up"></i>, label: t("heading.skills"), secName: 'skills'},
+    {icon: <i className="bi bi-file-earmark-text"></i>, label: t("heading.resume"), secName: 'resume'},
+    {icon: <i className="bi bi-images"></i>, label: t("heading.portfolio"), secName: 'works'},
+    {icon: <i className="bi bi-envelope"></i>, label: t("heading.contact"), secName: 'contact'},
+];
 
   return (
     <AsideStyled isVisible={isVisible}>
@@ -40,6 +48,8 @@ export default function Aside({scrollToSection, isVisible}) {
                         </IconButton>
                       );
                     })}
+                    
+                    <LanguageSwitcher />
                 </Box>
                 <Box className='asideNavBox'>
                     <List className='navList'>

@@ -3,10 +3,13 @@ import { Box, Grid, Typography } from '@mui/material';
 import Title from '../../Title/Title';
 import { AboutStyled } from './AboutStyled';
 import DownloadCv from '../../DownloadCv/DownloadCv';
+import { useTranslation } from 'react-i18next';
 
 const birthDate = new Date(2007, 3, 1);
 
 export default function About({toggleVisible}) {
+  // tranlation
+  const { t } = useTranslation();
   const [age, setAge] = useState(0);
   
   useEffect(() => {
@@ -23,21 +26,21 @@ export default function About({toggleVisible}) {
   }, []);
   
   const gridData = [
-    {label: 'Birthday:', item: '1 April 2007'},
-    {label: 'Age:', item: age},
-    {label: 'City:', item: 'Tashkent, Uzbekistan'},
+    {label: t('birthday'), item: '1 April 2007'},
+    {label: t('age'), item: age},
+    {label: t('city'), item: 'Tashkent, Uzbekistan'},
     {label: 'Website:', item: 'shakhrizoda.vercel.app'},
-    {label: 'Degree:', item: 'Junior'},
+    {label: t('degree'), item: 'Junior'},
     {label: 'Email:', item: 'shahrizodazayniddinova7@gmail.com'},
   ];
 
   return (
     <AboutStyled>
-      <Title title={'About'} description={"I am a passionate front-end developer with a strong interest in React, JavaScript and web development. I have experience working with API. As a frontend developer, I participated in the development of the admin panel. I created a dynamic UI using NextJs, TypeScript and Tailwind added data management functions. I want to continue learning and expanding my knowledge of front-end technologies while contributing to impactful projects. "}/>
+      <Title title={t('heading.about')} description={t('titles.about')}/>
       <span className='asideList'><i class="bi bi-list" onClick={toggleVisible}></i></span>
 
       <Box className='aboutData'>
-        <Typography variant='h5' className='jobName'>Frontend Developer</Typography>
+        <Typography variant='h5' className='jobName'>{t('job')}</Typography>
       </Box>
 
       <Box className='gridBox'>
@@ -55,7 +58,7 @@ export default function About({toggleVisible}) {
       </Box>
 
       <Box className='aboutText2'>
-        <Typography variant='caption'>I have been learning programming 3 years. I have more than 3 years of computer experience. Likes to learn new things, try and communicate. Coffee, photography, music and art are my happy places.</Typography>
+        <Typography variant='caption'>{t('titles.aboutLittle')}</Typography>
       </Box>
 
       <DownloadCv/>

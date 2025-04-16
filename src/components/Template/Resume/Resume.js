@@ -3,18 +3,20 @@ import Title from '../../Title/Title';
 import { Box, Grid, List, ListItem, Typography } from '@mui/material';
 import { ResumeStyled } from './ResumeStyled';
 import { resumeDatas } from './ResumeDatas';
+import { useTranslation } from 'react-i18next';
 
 function Resume() {
+  const {t} = useTranslation();
   const memoizedResumeDatas = useMemo(() => resumeDatas, []);
 
   return (
     <ResumeStyled>
-        <Title title={"Resume"} description={"I am working towards becoming a Frontend Developer. I have experience working with HTML, CSS, SCSS, Tailwind, Bootstrap, Material UI, JavaScript, and React. I'm a quick learner and a problem solver. I want to enrich my experience through web projects."}/>
+        <Title title={t('heading.resume')} description={t('titles.resume')}/>
     
         <Box className='resumeBox'>
           <Grid container columnSpacing={'20px'}>
             <Grid item xs={12} sm={6} md={8} className='gridItemBox'>
-              <Typography variant='h5' fontWeight={'bold'}>Education</Typography>
+              <Typography variant='h5' fontWeight={'bold'}>{t('resumeData.education')}</Typography>
 
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
@@ -36,11 +38,11 @@ function Resume() {
             </Grid>
 
             <Grid item xs={12} sm={6} md={8} className='gridItemBox gridItemBox2'>
-              <Typography variant='h5' fontWeight={'bold'}>Contact</Typography>
+              <Typography variant='h5' fontWeight={'bold'}>{t('resumeData.contact')}</Typography>
 
               <Box className='gridItemBoxItems gridItemBoxItems2'>
                 <span className='circle'></span>
-                <Typography variant='overline' fontWeight={'bold'} color='gray'>Personal Information</Typography>
+                <Typography variant='overline' fontWeight={'bold'} color='gray'>{t('resumeData.perInfor')}</Typography>
 
                 <Box>
                   <Typography variant='caption' fontWeight={'bold'}>Email</Typography>
@@ -55,7 +57,7 @@ function Resume() {
 
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
-                <Typography variant='overline' fontWeight={'bold'} color='gray'>Location</Typography>
+                <Typography variant='overline' fontWeight={'bold'} color='gray'>{t('resumeData.location')}</Typography>
                 <Typography variant='body1'>Tashkent, Uzbekistan</Typography>
               </Box>
             </Grid>
@@ -63,7 +65,7 @@ function Resume() {
 
           <Grid container>
             <Grid item xs={12} sm={6} md={8} className='gridItemBox'>
-              <Typography variant='h5' fontWeight={'bold'}>Skills</Typography>
+              <Typography variant='h5' fontWeight={'bold'}>{t('resumeData.skills')}</Typography>
 
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
@@ -80,7 +82,7 @@ function Resume() {
 
               <Box className='gridItemBoxItems'>
                 <span className='circle'></span>
-                <Typography variant='overline' fontWeight={'bold'} color='gray'>Language</Typography>
+                <Typography variant='overline' fontWeight={'bold'} color='gray'>{t('resumeData.language')}</Typography>
                 <Typography variant='body1'>Uzbek <Typography variant='caption' fontWeight={'bold'}>(Native)</Typography> </Typography>
                 <Typography variant='body1'>English <Typography variant='caption' fontWeight={'bold'}>(Intermediate)</Typography> </Typography>
                 <Typography variant='body1'>Russian <Typography variant='caption' fontWeight={'bold'}>(Basic)</Typography> </Typography>

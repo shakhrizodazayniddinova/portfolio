@@ -51,9 +51,9 @@ export const AsideStyled = styled.div`
         .socialBtnBox{
             display: flex;
             align-items: center;
-            gap: 15px;
+            gap: 10px;
 
-            button{
+            .socialBtn{
                 width: 40px;
                 height: 40px;
                 color: white;
