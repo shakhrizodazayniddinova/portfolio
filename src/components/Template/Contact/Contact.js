@@ -4,7 +4,6 @@ import { Box, Grid, Typography } from '@mui/material';
 import { ContactStyled } from './ContactStyled';
 import { useTranslation } from 'react-i18next';
 
-
 export default function Contact() {
     const {t} = useTranslation();
 

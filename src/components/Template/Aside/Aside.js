@@ -7,8 +7,8 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { AsideStyled } from './AsideStyled';
 import { Slide } from 'react-awesome-reveal';
-import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from '../../LanguageSwitcher/LanguageSwitcher';
+import { useTranslation } from 'react-i18next';
 
 export default function Aside({scrollToSection, isVisible}) {
   const handleScrollToSection = useCallback((secName) => {

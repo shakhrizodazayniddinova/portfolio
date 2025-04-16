@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import Flag from 'react-world-flags';
 
 export default function LanguageSwitcher() {
