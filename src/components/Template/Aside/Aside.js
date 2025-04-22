@@ -32,7 +32,7 @@ export default function Aside({scrollToSection, isVisible}) {
             <Box className='asideBox'>
                     <Box className='nameImgBox'>
                     <AccountCircleIcon className='imgMe'/>
-                    <Typography variant='body1' className='nameMe'>Shakhrizoda Zayniddinova</Typography>
+                    <Typography variant='body1' className='nameMe'>{t('name')}</Typography>
                 </Box>
                 <Box className='socialBtnBox'>
                     {['https://t.me/shakhrizode', 'https://www.instagram.com/zayniddinovvas', 'https://www.linkedin.com/in/shakhrizodazayniddinova', 'https://github.com/shakhrizodazayniddinova'].map((url, index) => {
@@ -51,10 +51,10 @@ export default function Aside({scrollToSection, isVisible}) {
                 <Box className='asideNavBox'>
                     <List className='navList'>
                         {navData.map((item, index) => (
-                            <ListItem key={index} className={`asideNav`} onClick={() => handleScrollToSection(item.secName)}>
-                                {item.icon}
-                                <Typography variant='body2' className='navText'>{item.label}</Typography>
-                            </ListItem>
+                          <ListItem key={index} className={`asideNav`} onClick={() => handleScrollToSection(item.secName)}>
+                              {item.icon}
+                              <Typography variant='body2' className='navText'>{item.label}</Typography>
+                          </ListItem>
                         ))}
                     </List>
                 </Box>

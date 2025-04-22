@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-// import { useTranslation } from 'react-i18next';
 import Flag from 'react-world-flags';
 
 export default function LanguageSwitcher() {
@@ -12,17 +11,19 @@ export default function LanguageSwitcher() {
     const lang = e.target.value;
     setSelectedLang(lang);
     i18n.changeLanguage(lang);
-    localStorage.setItem('lang', lang)
+    localStorage.setItem('lang', lang);
   };
 
   const options = [
     { value: 'uz', label: 'uz', flag: 'uz' },
     { value: 'en', label: 'en', flag: 'us' },
+    { value: 'ru', label: 'ru', flag: 'ru' },
   ];
 
   const flagMap = {
     uz: 'uz',
     en: 'us',
+    ru: 'ru',
   };
 
   useEffect(() => {

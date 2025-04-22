@@ -2,8 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 const resources = {
+    // uzbek
     uz: {
         translation: {
+            name: "Shahrizoda Zayniddinova",
             heading: {
                 about: "Men haqimda",
                 skills: "Ko'nikmalar",
@@ -36,13 +38,16 @@ const resources = {
             city: 'Shahar:',
             degree: 'Daraja:',
             age: 'Yosh:',
+            website: 'Vebsayt',
             interactive: 'interaktiv',
             static: 'statik',
-        }    
+        }
     },
 
+    // english
     en: {
         translation: {
+            name: "Shakhrizoda Zayniddinova",
             heading: {
                 skills: "Skills",
                 about: "About",
@@ -52,7 +57,7 @@ const resources = {
             },
             titles: {
                 about: "I am a passionate front-end developer with a strong interest in React, JavaScript and web development. I have experience working with API. As a frontend developer, I participated in the development of the admin panel. I created a dynamic UI using NextJs, TypeScript and Tailwind added data management functions. I want to continue learning and expanding my knowledge of front-end technologies while contributing to impactful projects.",
-                aboutLittle: "I have been learning programming 3 years. I have more than 3 years of computer experience. Likes to learn new things, try and communicate. Coffee, photography, music and art are my happy places.",
+                aboutLittle: "I have more than 3 years of computer experience. Likes to learn new things, try and communicate. Coffee, photography, music and art are my happy places.",
                 skills: "I have a strong foundation in frontend development, with expertise in building websites using HTML, CSS, JavaScript, and React. I'm committed to delivering high-quality, responsive designs and I'm constantly evolving to incorporate the latest web development practices.",
                 resume: "I am working towards becoming a Frontend Developer. I have experience working with HTML, CSS, SCSS, Tailwind, Bootstrap, Material UI, JavaScript, and React. I'm a quick learner and a problem solver. I want to enrich my experience through web projects.",
                 portfolio: "Interactive user interfaces created using modern technologies. Projects developed for responsive design and efficient user experience.",
@@ -75,10 +80,53 @@ const resources = {
             city: 'City:',
             degree: 'Degree:',
             age: 'Age:',
+            website: 'Website',
             interactive: 'interactive',
             static: 'static',
         }
-    }
+    },
+
+    // russian
+    ru: {
+        translation: {
+            name: "Шахризода Зайниддинова",
+            heading: {
+                about: "Обо мне",
+                skills: "Навыки",
+                resume: "Резюме",
+                portfolio: "Портфель",
+                contact: "Контакты",
+            },
+            titles: {
+                about: "Я целеустремлённая и стремящаяся к развитию front-end разработчица. У меня есть опыт работы с React, JavaScript и API. Я создавала динамичные пользовательские интерфейсы с использованием Next.js, TypeScript и Tailwind CSS. Принимала участие в разработке административной панели. Всегда готова изучать новые технологии.",
+                aboutLittle: "У меня более 3 лет опыта работы с компьютером. Я люблю учиться новому, действовать и общаться. Кофе, фотография, музыка и искусство — это мои счастливые увлечения.",
+                skills: "У меня есть прочная база в frontend-разработке с опытом создания веб-сайтов с использованием HTML, CSS, JavaScript и React. Я привержена предоставлению высококачественных, отзывчивых дизайнов и всегда стремлюсь развиваться, чтобы включать последние практики веб-разработки.",
+                resume: "Я работаю над тем, чтобы стать Frontend Developer. У меня есть опыт работы с HTML, CSS, SCSS, Tailwind, Bootstrap, Material UI, JavaScript и React. Я быстро учусь и умею решать проблемы. Я стремлюсь обогатить свой опыт через веб-проекты.",
+                portfolio: "Интерактивные пользовательские интерфейсы, созданные с использованием современных технологий. Проекты разработаны с учетом отзывчивого дизайна и эффективного пользовательского опыта.",
+                contact: "Я готова работать над вашим будущим проектом. Для связи со мной используйте следующие данные.",
+            },
+            resumeData: {
+                education: "Образование",
+                contact: "Контакты",
+                perInfor: "Личная информация",
+                location: "Местоположение",
+                skills: "Навыки",
+                language: "Язык",
+            },
+            contactData: {
+                address: "Адрес",
+                call: "Телефон",
+            },
+            job: 'Frontend Разработчик',
+            birthday: "Дата рождения:",
+            city: 'Город:',
+            degree: 'Степень:',
+            age: 'Возраст:',
+            website: 'Вебсайт',
+            interactive: 'интерактивный',
+            static: 'статический',
+        }
+    },
 };
 
 i18n

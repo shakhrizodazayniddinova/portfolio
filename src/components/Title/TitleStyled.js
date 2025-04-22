@@ -6,13 +6,13 @@ export const TitleStyled = styled.div`
   gap: 1%;
 
   .title{
-      font-weight: 600;
+    font-weight: 600;
   }
   .line{
-      width: 50px;
-      height: 3px;
-      background-color: #149ddd;
-      border: none;
-      margin-top: 1%;
+    width: 50px;
+    height: 3px;
+    background-color: #149ddd;
+    border: none;
+    margin-top: 1%;
   }
 `;
