@@ -32,6 +32,7 @@ const resources = {
             contactData: {
                 address: "Manzil",
                 call: "Telefon",
+                email: "Elektron pochta",
             },
             job: 'Frontend Dasturchi',
             birthday: "Tug'ilgan sana:",
@@ -74,6 +75,7 @@ const resources = {
             contactData: {
                 address: "Address",
                 call: "Call Us",
+                email: "Email",
             },
             job: 'Frontend Developer',
             birthday: 'Birthday:',
@@ -116,6 +118,7 @@ const resources = {
             contactData: {
                 address: "Адрес",
                 call: "Телефон",
+                email: "Электронная почта",
             },
             job: 'Frontend Разработчик',
             birthday: "Дата рождения:",

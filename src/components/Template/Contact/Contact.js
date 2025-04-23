@@ -9,11 +9,11 @@ export default function Contact() {
 
     const contactData = [
         {icon: 'bi-geo-alt', label: t('contactData.address'), item: 'Tashkent, Uzbekistan'},
-        {icon: 'bi-telephone', label: t('contactData.call'), item: '+998-99-067-9040', type: `+998990679040`, typeTo: 'tel:'},
-        {icon: 'bi-envelope', label: 'Email', item: 'shahrizodazayniddinova7@gmail.com', type: `shahrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
+        {icon: 'bi-telephone', label: t('contactData.call'), item: '+998-90-113-9141', type: `+998990679040`, typeTo: 'tel:'},
+        {icon: 'bi-envelope', label: t('contactData.email'), item: 'shahrizodazayniddinova7@gmail.com', type: `shahrizodazayniddinova7@gmail.com`, typeTo: 'mailto:', class: 'email'},
     ];
 
-    const memoizedContactData = useMemo(() => contactData, []);
+    // const memoizedContactData = useMemo(() => contactData, []);
 
   return (
     <ContactStyled>
@@ -22,7 +22,7 @@ export default function Contact() {
         <Box>
             <Grid container className='contactBox'>
                 {/* map */}
-                {memoizedContactData.map((items, index) => (
+                {contactData.map((items, index) => (
                     <Grid item xs={12} sm={6} md={4} key={index}>
                         <Box className='contactInformation'>
                             <button className='contactInformIcon' onClick={() => items.type && window.open(`${items.typeTo}${items.type}`, '_blank')}>

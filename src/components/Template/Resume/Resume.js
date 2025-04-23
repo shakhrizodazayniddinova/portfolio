@@ -51,7 +51,7 @@ function Resume() {
 
                 <Box>
                   <Typography variant='caption' fontWeight={'bold'}>Phone</Typography>
-                  <Typography variant='body1'>+998 99-067-90-40</Typography>
+                  <Typography variant='body1'>+998 90-113-91-41</Typography>
                 </Box>
               </Box>
 
