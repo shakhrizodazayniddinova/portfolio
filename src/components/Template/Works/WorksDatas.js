@@ -21,8 +21,10 @@ import colorsinput from './Assets/colorsinput.png';
 import magicsquares from './Assets/magicsquares.png';
 import blogzine from './Assets/blogzine.png';
 import agency from './Assets/agency.png';
+import asoschilar from './Assets/asoschilar-club.png'
 
 export const designCardData = [
+    {img: asoschilar, workName: 'Asoschilar Club', aboutWork: 'HTML | CSS | JavaScript | Responsive', link: 'https://asoschilar-club-clone.vercel.app/', sourceCodeClass: 'https://github.com/shakhrizodazayniddinova/asoschilar-clone'},
     {img: treloo, workName: 'Treloo', aboutWork: 'HTML | SCSS | Responsive', link: 'https://trelooo.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: hilltop, workName: 'Hill Top', aboutWork: 'HTML | SCSS | Not responsive', link: 'https://hilltop-shakhrizoda.netlify.app/', sourceCodeClass: 'sourceCodeNone'},
     {img: kaylagriffith, workName: 'Kayla Griffith', aboutWork: 'React | CSS | Not Responsive', link: 'https://kaylagriffith-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/griffith', sourcecode: 'Source Code'},
