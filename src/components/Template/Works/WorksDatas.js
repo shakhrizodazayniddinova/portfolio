@@ -21,7 +21,8 @@ import colorsinput from './Assets/colorsinput.png';
 import magicsquares from './Assets/magicsquares.png';
 import blogzine from './Assets/blogzine.png';
 import agency from './Assets/agency.png';
-import asoschilar from './Assets/asoschilar-club.png'
+import asoschilar from './Assets/asoschilar-club.png';
+import transly from './Assets/transly.png';
 
 export const designCardData = [
     {img: asoschilar, workName: 'Asoschilar Club', aboutWork: 'HTML | CSS | JavaScript | Responsive', link: 'https://asoschilar-club-clone.vercel.app/', sourceCodeClass: 'https://github.com/shakhrizodazayniddinova/asoschilar-clone'},
@@ -51,4 +52,5 @@ export const dynamicCardData = [
     {img: youtube, workName: 'Youtube clone', aboutWork: 'React | SCSS | MUI | Json API | Router | Redux | Firebase | Not Responsive', link: 'https://youtube-by-shakhrizoda.netlify.app', githubLink: 'https://github.com/shakhrizodazayniddinova/youtube', sourcecode: 'Source Code'},
     {img: calendar, workName: 'Calendar', aboutWork: 'Webpack | SCSS | MomentJs | Classnames | React Awesome Reveal | Context API | Not Responsive', link: 'https://calendar-by-shakhrizoda.netlify.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/calendar', sourcecode: 'Source Code'},
     {img: agency, workName: 'Agency', aboutWork: 'NextJs | MUI | React Awesome Reveal | Responsive', link: 'https://agency-rho-tan.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/agency', sourcecode: 'Source Code'},
+    {img: transly, workName: 'Transly', aboutWork: 'React | Tailwind | Context API | Responsive', link: 'https://transly-five.vercel.app/', githubLink: 'https://github.com/shakhrizodazayniddinova/transly', sourcecode: 'Source Code'},
 ];

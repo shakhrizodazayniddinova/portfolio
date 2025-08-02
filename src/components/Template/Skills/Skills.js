@@ -7,7 +7,7 @@ import { SkillsDate } from './SkillsData';
 import { useTranslation } from 'react-i18next';
 
 export default function Skills() {
-    const {t} = useTranslation();
+  const {t} = useTranslation();
   const memoizedSkillsData = useMemo(() => SkillsDate, []);
 
   return (
