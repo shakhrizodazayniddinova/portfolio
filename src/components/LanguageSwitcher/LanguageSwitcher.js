@@ -10,8 +10,6 @@ export default function LanguageSwitcher() {
   const handleChange = (e) => {
     const lang = e.target.value;
     setSelectedLang(lang);
-    i18n.changeLanguage(lang);
-    localStorage.setItem('lang', lang);
   };
 
   const options = [
@@ -27,7 +25,8 @@ export default function LanguageSwitcher() {
   };
 
   useEffect(() => {
-    i18n.changeLanguage(storageLang);
+    i18n.changeLanguage(selectedLang);
+    localStorage.setItem('lang', selectedLang);
   }, [i18n, storageLang]);
 
   return (
