@@ -27,7 +27,7 @@ export default function LanguageSwitcher() {
   useEffect(() => {
     i18n.changeLanguage(selectedLang);
     localStorage.setItem('lang', selectedLang);
-  }, [i18n, storageLang]);
+  }, [selectedLang, i18n]);
 
   return (
     <div className="lang-switcher" style={{ display: 'flex', alignItems: 'center' }}>
