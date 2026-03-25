@@ -1,4 +1,3 @@
-import React, { useMemo } from 'react';
 import Title from '../../Title/Title';
 import { Box, Grid, Typography } from '@mui/material';
 import { ContactStyled } from './ContactStyled';
