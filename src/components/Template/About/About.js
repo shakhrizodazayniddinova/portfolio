@@ -30,7 +30,7 @@ export default function About({toggleVisible}) {
     {label: t('age'), item: age},
     {label: t('city'), item: 'Tashkent, Uzbekistan'},
     {label: t('website'), item: 'shakhrizoda.vercel.app'},
-    {label: t('degree'), item: 'Junior'},
+    {label: t('degree'), item: 'Strong Junior'},
     {label: 'Email:', item: 'shahrizodazayniddinova7@gmail.com'},
   ];
 
