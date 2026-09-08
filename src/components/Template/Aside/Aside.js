@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react';
 import { Box, IconButton, List, ListItem, Typography } from '@mui/material';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import me from './Assets/me.jpg';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -32,7 +32,7 @@ export default function Aside({scrollToSection, isVisible}) {
         <Slide direction='left'>
             <Box className='asideBox'>
                     <Box className='nameImgBox'>
-                    <img src={me} alt="Shakhrizoda Zayniddinova Photo" className='imgMe'/>
+                    <img src={me} alt="Shakhrizoda Zayniddinova" className='imgMe'/>
                     {/* <AccountCircleIcon className='imgMe'/> */}
                     <Typography variant='body1' className='nameMe'>{t('name')}</Typography>
                 </Box>

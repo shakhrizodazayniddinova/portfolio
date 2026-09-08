@@ -11,64 +11,71 @@ import { Fade, Slide } from 'react-awesome-reveal';
 
 export default function Template() {
   const [isVisible, setIsVisible] = useState(false);
-  const toggleVisible = useCallback(() => setIsVisible(prev => !prev), []); // useCallback for performance
-  
-  const sectionsRef = {
-    about: useRef(null),
-    skills: useRef(null),
-    resume: useRef(null),
-    works: useRef(null),
-    contact: useRef(null),
-  };
+
+  const toggleVisible = useCallback(
+    () => setIsVisible(prev => !prev),
+    []
+  );
+
+  const sectionsRef = useRef({
+    about: null,
+    skills: null,
+    resume: null,
+    works: null,
+    contact: null,
+  });
 
   const scrollToSection = useCallback((sectionId) => {
-    if (sectionsRef[sectionId]?.current) {
-      sectionsRef[sectionId].current.scrollIntoView({ behavior: 'smooth' });
-      setIsVisible(false);  // Close the aside when a section is clicked
+    const section = sectionsRef.current[sectionId];
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+      setIsVisible(false);
     }
   }, []);
 
   return (
     <TemplateStyled>
-        <CssBaseline/>
+      <CssBaseline />
 
-        <aside>
-          <Aside 
-            scrollToSection={scrollToSection}
-            isVisible={isVisible}/>
-        </aside>
+      <aside>
+        <Aside
+          scrollToSection={scrollToSection}
+          isVisible={isVisible}
+        />
+      </aside>
 
-        <main>
-            <section ref={sectionsRef.about}>
-              <Slide direction='up' triggerOnce>
-                <About toggleVisible={toggleVisible}/>
-              </Slide>
-            </section>
+      <main>
+        <section ref={el => (sectionsRef.current.about = el)}>
+          <Slide direction="up" triggerOnce>
+            <About toggleVisible={toggleVisible} />
+          </Slide>
+        </section>
 
-            <section ref={sectionsRef.skills}>
-              <Fade>
-                <Skills />
-              </Fade>
-            </section>
+        <section ref={el => (sectionsRef.current.skills = el)}>
+          <Fade>
+            <Skills />
+          </Fade>
+        </section>
 
-            <section ref={sectionsRef.resume}>
-              <Fade>
-                <Resume />
-              </Fade>
-            </section>
+        <section ref={el => (sectionsRef.current.resume = el)}>
+          <Fade>
+            <Resume />
+          </Fade>
+        </section>
 
-            <section ref={sectionsRef.works}>
-              <Fade>
-                <Works />
-              </Fade>
-            </section>
+        <section ref={el => (sectionsRef.current.works = el)}>
+          <Fade>
+            <Works />
+          </Fade>
+        </section>
 
-            <section ref={sectionsRef.contact}>
-              <Fade>
-                <Contact />
-              </Fade>
-            </section>
-        </main>
+        <section ref={el => (sectionsRef.current.contact = el)}>
+          <Fade>
+            <Contact />
+          </Fade>
+        </section>
+      </main>
     </TemplateStyled>
-  )
+  );
 }
