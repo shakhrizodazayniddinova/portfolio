@@ -1,6 +1,7 @@
 import React, { useCallback } from 'react';
 import { Box, IconButton, List, ListItem, Typography } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import me from './Assets/me.jpg';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -31,7 +32,8 @@ export default function Aside({scrollToSection, isVisible}) {
         <Slide direction='left'>
             <Box className='asideBox'>
                     <Box className='nameImgBox'>
-                    <AccountCircleIcon className='imgMe'/>
+                    <img src={me} alt="Shakhrizoda Zayniddinova Photo" className='imgMe'/>
+                    {/* <AccountCircleIcon className='imgMe'/> */}
                     <Typography variant='body1' className='nameMe'>{t('name')}</Typography>
                 </Box>
                 <Box className='socialBtnBox'>
@@ -40,7 +42,7 @@ export default function Aside({scrollToSection, isVisible}) {
                       return (
                         <IconButton key={index} className='socialBtn'>
                             <a href={url} target="_blank" rel="noopener noreferrer">
-                                {icons[index]}
+                              {icons[index]}
                             </a>
                         </IconButton>
                       );

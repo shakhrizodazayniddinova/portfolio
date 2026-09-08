@@ -39,6 +39,8 @@ export const AsideStyled = styled.div`
             .imgMe{
                 width: 120px;
                 height: 120px;
+                object-fit: cover;
+                border-radius: 50%;
             }
 
             .nameMe{

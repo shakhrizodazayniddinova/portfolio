@@ -14,7 +14,7 @@ export default function Works() {
         <Title title={t('heading.portfolio')} description={t('titles.portfolio')}/>
     
         <Box className='worksBox'>
-            <Grid2 container spacing={'10px'} rowGap={'30px'}>
+            <Grid2 container spacing={'10px'} rowGap={'30px'} justifyContent={'center'} alignItems={'center'}>
                 { designCardData.map((items, index) => (
                   <WorkCard items={items} key={index} />
                 )) }
